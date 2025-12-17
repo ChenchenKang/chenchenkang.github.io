@@ -1,0 +1,4 @@
+.profile img {
+  max-width: 180px;   /* adjust: 160–220px is typical */
+  height: auto;
+}
