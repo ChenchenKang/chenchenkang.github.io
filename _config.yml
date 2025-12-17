@@ -53,6 +53,7 @@ bib_search: true
 
 # Dimensions
 max_width: 1100px
+custom_css: assets/css/custom.css
 
 # TODO: add layout settings (single page vs. multi-page)
 
