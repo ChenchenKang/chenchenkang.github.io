@@ -20,7 +20,15 @@
     url: https://plantscience.psu.edu/directory/fxd92
 
 "kumar":
-  - firstname: ["Shanthanu","Shan","S.K.","Krishna", "Shanthanu Krishna"]
+  - firstname: ["Shanthanu","Kumar Shanthanu Krishna", "Shanthanu Krishna"]
+    url: https://plantscience.psu.edu/directory/szk6480
+
+"shanthanu":
+  - firstname: ["Shanthanu","Kumar Shanthanu Krishna", "Shanthanu Krishna"]
+    url: https://plantscience.psu.edu/directory/szk6480
+
+"krishna":
+  - firstname: ["Shanthanu","Kumar Shanthanu Krishna", "Shanthanu Krishna"]
     url: https://plantscience.psu.edu/directory/szk6480
 
 "zhu":
