@@ -6,7 +6,7 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 nav_order: 6
 ---
-
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<div class="post" style="text-align: center; padding: 4rem 1rem;">
+  <h2>Coming Soon</h2>
+  <p>The blog section is under development. Please check back later.</p>
+</div>
