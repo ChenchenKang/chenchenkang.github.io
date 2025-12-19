@@ -412,10 +412,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-dr-kang-joined-tsu-as-an-assistant-professor",
+            },},{id: "news-dr-kang-joined-tsu-as-an-assistant-professor",
           title: 'Dr. Kang joined TSU as an Assistant Professor!',
           description: "",
           section: "News",},{id: "projects-project-1",
