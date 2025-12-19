@@ -511,6 +511,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/chenchen-kang-191531179", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-2697-8018", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
