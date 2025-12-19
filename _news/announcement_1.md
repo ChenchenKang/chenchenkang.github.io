@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Lab] Dr. Kang joined NC State as an Assistant Professor!
+[Lab] Dr. Kang joined TSU as an Assistant Professor!
