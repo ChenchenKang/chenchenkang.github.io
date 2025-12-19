@@ -1,5 +1,5 @@
 
-**MS student** (2026 - )
+**PhD student** (2026 - )
 
 (Hiring now)
 
