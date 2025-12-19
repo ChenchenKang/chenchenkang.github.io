@@ -17,13 +17,13 @@ profiles:
 
 
   - align: left
-    image: prof_pic.jpg
+    image: default.png
     content: about_phd_student.md
     image_circular: false # crops the image to make it circular
     more_info: >
 
   - align: left
-    image: prof_pic.jpg
+    image: default.png
     content: about_ms_student.md
     image_circular: false # crops the image to make it circular
     more_info: >
