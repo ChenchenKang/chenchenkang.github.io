@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Kang joined TSU as an Assistant Professor!
+Dr. Kang joined TSU as an Assistant Professor.
