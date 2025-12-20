@@ -27,7 +27,7 @@ nav_order: 4
    *Quantum Zeitgeist*, March 5, 2025.  
    [Read article](https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/)
 
-5. **Innovative Computer Vision System Enhances Monitoring of Specialty Crops**  
+5. **Innovative computer vision system enhances monitoring of specialty crops**  
    *Bioengineer.org*, March 4, 2025.  
    [Read article](https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/)
 
