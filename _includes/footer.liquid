@@ -30,5 +30,6 @@
 {% endif %}
 
 <!-- MapMyVisitors -->
-</script>
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=120&t=n&d=CzQHQHwrivSb6_OtSuc0AqEV6jwsrzAmFt0o9DkAAr4&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+{% if page.url == "/" or page.url == "/about/" %}
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=140&t=n&d=CzQHQHwrivSb6_OtSuc0AqEV6jwsrzAmFt0o9DkAAr4&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+{% endif %}
