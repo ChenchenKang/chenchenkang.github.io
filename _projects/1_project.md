@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Smart irrigation system using IoT and big data analytics (dissertation project)
 description: with background image
 img: assets/img/12.jpg
 importance: 1
