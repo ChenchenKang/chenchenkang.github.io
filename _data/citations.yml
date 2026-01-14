@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-09'
+  last_updated: '2026-01-14'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -18,7 +18,7 @@ papers:
     title: Diagnosis of Grapevine Nutrient Content Using Proximal Hyperspectral Imaging
     year: '2022'
   coQd5vUAAAAJ:9yKSN-GCB0IC:
-    citations: 36
+    citations: 34
     title: Ground-based thermal imaging for assessing crop water status in grapevines over a growing season
     year: '2022'
   coQd5vUAAAAJ:IjCSPb-OGe4C:
@@ -78,7 +78,7 @@ papers:
     title: Experimental Study on Mechanical Properties of Connections between Alfalfa Leaves and Stems
     year: '2019'
   coQd5vUAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 17
     title: Optimization and experiments of cut-condition device working parameter on mower conditioner
     year: '2017'
   coQd5vUAAAAJ:ufrVoPGSRksC:
@@ -86,6 +86,6 @@ papers:
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 33
+    citations: 32
     title: Decision-support system for precision regulated deficit irrigation management for wine grapes
     year: '2023'
