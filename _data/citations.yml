@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-21'
+  last_updated: '2026-01-23'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -18,7 +18,7 @@ papers:
     title: Diagnosis of Grapevine Nutrient Content Using Proximal Hyperspectral Imaging
     year: '2022'
   coQd5vUAAAAJ:9yKSN-GCB0IC:
-    citations: 35
+    citations: 36
     title: Ground-based thermal imaging for assessing crop water status in grapevines over a growing season
     year: '2022'
   coQd5vUAAAAJ:IjCSPb-OGe4C:
@@ -46,7 +46,7 @@ papers:
     title: An Integrated Purifier for Livestock and Poultry Based on Safe Air and Drinking Water
     year: '2017'
   coQd5vUAAAAJ:W7OEmFMy1HYC:
-    citations: 0
+    citations: 1
     title: Decision-support system for water stress assessment and deficit irrigation management in wine grapes
     year: '2023'
   coQd5vUAAAAJ:WF5omc3nYNoC:
