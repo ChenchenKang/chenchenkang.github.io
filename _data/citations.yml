@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-23'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
-    citations: 4
+    citations: 6
     title: A recursive segmentation model for bok choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture
     year: '2025'
   coQd5vUAAAAJ:2osOgNQ5qMEC:
@@ -18,7 +18,7 @@ papers:
     title: Diagnosis of Grapevine Nutrient Content Using Proximal Hyperspectral Imaging
     year: '2022'
   coQd5vUAAAAJ:9yKSN-GCB0IC:
-    citations: 35
+    citations: 38
     title: Ground-based thermal imaging for assessing crop water status in grapevines over a growing season
     year: '2022'
   coQd5vUAAAAJ:IjCSPb-OGe4C:
@@ -26,7 +26,7 @@ papers:
     title: Field Experiment of Small Self-Propelled Mower Conditioner
     year: '2019'
   coQd5vUAAAAJ:LkGwnXOMwfcC:
-    citations: 0
+    citations: 1
     title: Bok Choy Growth Monitoring Using IoT Technology and a Recurrent Segmentation Model
     year: '2024'
   coQd5vUAAAAJ:MXK_kJrjxJIC:
@@ -78,14 +78,14 @@ papers:
     title: Experimental Study on Mechanical Properties of Connections between Alfalfa Leaves and Stems
     year: '2019'
   coQd5vUAAAAJ:u5HHmVD_uO8C:
-    citations: 17
+    citations: 15
     title: Optimization and experiments of cut-condition device working parameter on mower conditioner
     year: '2017'
   coQd5vUAAAAJ:ufrVoPGSRksC:
-    citations: 7
+    citations: 8
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 33
+    citations: 36
     title: Decision-support system for precision regulated deficit irrigation management for wine grapes
     year: '2023'
