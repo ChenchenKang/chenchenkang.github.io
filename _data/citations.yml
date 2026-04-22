@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-22'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
-    citations: 8
+    citations: 9
     title: A recursive segmentation model for bok choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture
     year: '2025'
   coQd5vUAAAAJ:2osOgNQ5qMEC:
@@ -18,7 +18,7 @@ papers:
     title: Diagnosis of Grapevine Nutrient Content Using Proximal Hyperspectral Imaging
     year: '2022'
   coQd5vUAAAAJ:9yKSN-GCB0IC:
-    citations: 41
+    citations: 42
     title: Ground-based thermal imaging for assessing crop water status in grapevines over a growing season
     year: '2022'
   coQd5vUAAAAJ:IjCSPb-OGe4C:
@@ -82,7 +82,7 @@ papers:
     title: Optimization and experiments of cut-condition device working parameter on mower conditioner
     year: '2017'
   coQd5vUAAAAJ:ufrVoPGSRksC:
-    citations: 9
+    citations: 10
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
