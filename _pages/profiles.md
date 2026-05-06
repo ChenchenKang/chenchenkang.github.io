@@ -31,4 +31,4 @@ profiles:
     more_info: >
 
 ---
-<img src="/assets/images/lab-cover.png" alt="Lab research cover image" class="page-cover">
+
