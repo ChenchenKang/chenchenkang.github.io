@@ -6,6 +6,8 @@ description: Lab members
 nav: true
 nav_order: 3
 
+<img src="/assets/images/lab-cover.png" alt="Lab research cover image" class="page-cover">
+
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
