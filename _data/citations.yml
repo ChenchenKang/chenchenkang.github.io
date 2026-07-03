@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-07-03'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
-    citations: 10
+    citations: 11
     title: A recursive segmentation model for bok choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture
     year: '2025'
   coQd5vUAAAAJ:2osOgNQ5qMEC:
@@ -10,7 +10,7 @@ papers:
     title: Design and Experiment of Roller Crushing Device of King Grass Harvester
     year: '2021'
   coQd5vUAAAAJ:3fE2CSJIrl8C:
-    citations: 1
+    citations: 2
     title: Integrating computer vision and precision sprayers for targeted green fruit chemical thinning
     year: '2025'
   coQd5vUAAAAJ:5nxA0vEk-isC:
@@ -25,6 +25,10 @@ papers:
     citations: 0
     title: Field Experiment of Small Self-Propelled Mower Conditioner
     year: '2019'
+  coQd5vUAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: AI-driven precision chemical thinning system and evaluation method for variable-rate application in apple orchards
+    year: '2026'
   coQd5vUAAAAJ:LkGwnXOMwfcC:
     citations: 1
     title: Bok Choy Growth Monitoring Using IoT Technology and a Recurrent Segmentation Model
@@ -50,7 +54,7 @@ papers:
     title: Decision-support system for water stress assessment and deficit irrigation management in wine grapes
     year: '2023'
   coQd5vUAAAAJ:WF5omc3nYNoC:
-    citations: 12
+    citations: 13
     title: 'Estimating soil and grapevine water status using ground based hyperspectral imaging under diffused lighting conditions: Addressing the effect of lighting variability in vineyards'
     year: '2023'
   coQd5vUAAAAJ:YsMSGLbcyi4C:
@@ -86,6 +90,6 @@ papers:
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 37
+    citations: 39
     title: Decision-support system for precision regulated deficit irrigation management for wine grapes
     year: '2023'
