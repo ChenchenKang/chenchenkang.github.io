@@ -83,12 +83,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-04.jpg' | relative_url }}"
-      alt="Field demonstration with growers"
+      src="{{ '/assets/img/extension/md_grape.png' | relative_url }}"
+      alt="Vineyard field demonstration of a robotic sprayer for improved spray-region control and coverage."
       loading="lazy"
     >
     <figcaption>
-      Engaging with growers through field demonstrations of sensing and precision management technologies.
+      Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in vineyards at the 2025 Maryland Grape Growers Association Summer Field Day.
     </figcaption>
   </figure>
 
