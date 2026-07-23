@@ -2,7 +2,7 @@
 date: 2026-07-23
 title: "Amiga Flex Arrives at the Lab"
 inline: true
-image: /assets/img/news/amiga-flex.png
+image: /assets/img/news/amiga-flex.jpg
 image_alt: "Amiga Flex agricultural robot at the Otis L. Floyd Nursery Research Center"
 summary: >
   The Amiga Flex, the newest version of the Amiga robot,
