@@ -105,12 +105,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-06.jpg' | relative_url }}"
-      alt="Precision agriculture equipment presentation"
+      src="{{ '/assets/img/extension/mafvc_weather_2025.png' | relative_url }}"
+      alt="Presentation on a low-cost microclimate monitoring system for orchard disease management."
       loading="lazy"
     >
     <figcaption>
-      Presenting precision agriculture equipment and research projects to visitors and industry stakeholders.
+      Presenting a low-cost microclimate monitoring system for orchard disease management at the 2025 Mid-Atlantic Fruit and Vegetable Convention.
     </figcaption>
   </figure>
 
