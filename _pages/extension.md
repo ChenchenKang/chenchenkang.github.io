@@ -72,12 +72,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-03.jpg' | relative_url }}"
-      alt="Agricultural robotics demonstration"
+      src="{{ '/assets/img/extension/frec_field_day_spray_2025.png' | relative_url }}"
+      alt="Field demonstration of a computer-vision-guided precision sprayer for targeted green fruit chemical thinning."
       loading="lazy"
     >
     <figcaption>
-      Demonstrating agricultural robotics and automation technologies for specialty crop production.
+      Demonstrating the integration of computer vision and precision sprayers for targeted green fruit chemical thinning to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day..
     </figcaption>
   </figure>
 
