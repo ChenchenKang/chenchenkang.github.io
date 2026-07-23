@@ -62,7 +62,7 @@ nav_order: 5
   <figure class="extension-item">
     <img
       src="{{ '/assets/img/extension/frec_field_day_2025.png' | relative_url }}"
-      alt="Drone demonstration for agricultural applications"
+      alt="Demonstrating a low-cost orchard sensor station to growers and farmers"
       loading="lazy"
     >
     <figcaption>
