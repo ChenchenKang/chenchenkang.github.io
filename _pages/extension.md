@@ -61,12 +61,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-02.jpg' | relative_url }}"
+      src="{{ '/assets/img/extension/frec_field_day_2025.png' | relative_url }}"
       alt="Drone demonstration for agricultural applications"
       loading="lazy"
     >
     <figcaption>
-      Introducing drone-based sensing and imaging applications to growers and community members.
+      Demonstrating a multifunctional, low-cost sensor station for orchard management to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day.
     </figcaption>
   </figure>
 
