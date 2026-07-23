@@ -103,7 +103,16 @@ nav_order: 5
     </figcaption>
   </figure>
 
-  
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/mafvc_iot_2025.png' | relative_url }}"
+      alt="Invited presentation on IoT and computer vision technologies for monitoring soilless greenhouse leafy greens."
+      loading="lazy"
+    >
+    <figcaption>
+      January 29, 2025: Invited presentation on IoT and computer vision technologies for monitoring soilless greenhouse leafy greens.
+    </figcaption>
+  </figure>
 
   <figure class="extension-item">
     <img
@@ -115,5 +124,7 @@ nav_order: 5
       January 30, 2025: Presenting a low-cost microclimate monitoring system for orchard disease management at the 2025 Mid-Atlantic Fruit and Vegetable Convention.
     </figcaption>
   </figure>
+
+
 
 </div>
