@@ -138,7 +138,7 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/md_nursery_2025.png' | relative_url }}"
+      src="{{ '/assets/img/extension/md_nursery_2024.png' | relative_url }}"
       alt="Demonstrating a four-wheel-drive drone equipped with a ground sprayer at the 2024 Maryland Nursery, Landscape and Greenhouse Association and University of Maryland Extension Tech Field Day."
       loading="lazy"
     >
@@ -147,6 +147,16 @@ nav_order: 5
     </figcaption>
   </figure>
 
+ <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/wsgs_2022.png' | relative_url }}"
+      alt="Presentation on using proximal hyperspectral imaging to assess grapevine nitrogen content."
+      loading="lazy"
+    >
+    <figcaption>
+      November 17, 2022: Presenting the use of proximal hyperspectral imaging to diagnose grapevine nitrogen content at the 2022 Washington State Grape Society Annual Meeting and Trade Show.
+    </figcaption>
+  </figure>
 
 
 </div>
