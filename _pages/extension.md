@@ -125,6 +125,17 @@ nav_order: 5
     </figcaption>
   </figure>
 
+    <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/agprogress_2024.png' | relative_url }}"
+      alt="Demonstration and presentation of an IoT- and computer-vision-based monitoring system for soilless greenhouse leafy green production."
+      loading="lazy"
+    >
+    <figcaption>
+      August 14, 2024: Demonstrating a monitoring system and presenting the use of Internet of Things technologies and computer vision to improve the management and sustainability of soilless greenhouse leafy green production at Penn State’s 2024 Ag Progress Days.
+    </figcaption>
+  </figure>
+
 
 
 </div>
