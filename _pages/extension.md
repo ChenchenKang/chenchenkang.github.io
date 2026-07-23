@@ -125,7 +125,7 @@ nav_order: 5
     </figcaption>
   </figure>
 
-    <figure class="extension-item">
+  <figure class="extension-item">
     <img
       src="{{ '/assets/img/extension/agprogress_2024.png' | relative_url }}"
       alt="Demonstration and presentation of an IoT- and computer-vision-based monitoring system for soilless greenhouse leafy green production."
