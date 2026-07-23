@@ -94,12 +94,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-05.jpg' | relative_url }}"
-      alt="Student and community outreach activity"
+      src="{{ '/assets/img/extension/umd_field_day_2025.png' | relative_url }}"
+      alt="Field demonstration of a robotic sprayer for improved spray-region control and coverage in raspberries."
       loading="lazy"
     >
     <figcaption>
-      Supporting agricultural education through hands-on activities for students and community participants.
+      Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in raspberry production at the 2025 Western Maryland Research and Education Center Field Day.
     </figcaption>
   </figure>
 
