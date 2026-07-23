@@ -50,12 +50,12 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
-      src="{{ '/assets/img/extension/extension-01.jpg' | relative_url }}"
+      src="{{ '/assets/img/extension/nrc_field_day.png' | relative_url }}"
       alt="Extension activity at the Nursery Research Center"
       loading="lazy"
     >
     <figcaption>
-      Demonstrating precision agriculture technologies during an outreach event at the Nursery Research Center.
+      Presenting current progress and future opportunities for robotic spraying in specialty crops and nursery production at the 2026 Otis L. Floyd Nursery Research Center Field Day.
     </figcaption>
   </figure>
 
