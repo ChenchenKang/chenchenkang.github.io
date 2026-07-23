@@ -149,6 +149,17 @@ nav_order: 5
 
  <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/frec_precision_ag_field_day_2023.png' | relative_url }}"
+      alt="Vineyard demonstration of a robotic sprayer for improved spray-region control and spray coverage."
+      loading="lazy"
+    >
+    <figcaption>
+      September 15, 2023: Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in vineyards at the 2023 Penn State Extension Plant Protection Field Day.
+    </figcaption>
+  </figure>
+
+ <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/wsgs_2022.png' | relative_url }}"
       alt="Presentation on using proximal hyperspectral imaging to assess grapevine nitrogen content."
       loading="lazy"
