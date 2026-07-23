@@ -55,40 +55,7 @@ nav_order: 5
       loading="lazy"
     >
     <figcaption>
-      Presenting current progress and future opportunities for robotic spraying in specialty crops and nursery production at the 2026 Otis L. Floyd Nursery Research Center Field Day.
-    </figcaption>
-  </figure>
-
-  <figure class="extension-item">
-    <img
-      src="{{ '/assets/img/extension/frec_field_day_2025.png' | relative_url }}"
-      alt="Demonstrating a low-cost orchard sensor station to growers and farmers"
-      loading="lazy"
-    >
-    <figcaption>
-      Demonstrating a multifunctional, low-cost sensor station for orchard management to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day.
-    </figcaption>
-  </figure>
-
-  <figure class="extension-item">
-    <img
-      src="{{ '/assets/img/extension/frec_field_day_spray_2025.png' | relative_url }}"
-      alt="Field demonstration of a computer-vision-guided precision sprayer for targeted green fruit chemical thinning."
-      loading="lazy"
-    >
-    <figcaption>
-      Demonstrating the integration of computer vision and precision sprayers for targeted green fruit chemical thinning to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day..
-    </figcaption>
-  </figure>
-
-  <figure class="extension-item">
-    <img
-      src="{{ '/assets/img/extension/md_grape.png' | relative_url }}"
-      alt="Vineyard field demonstration of a robotic sprayer for improved spray-region control and coverage."
-      loading="lazy"
-    >
-    <figcaption>
-      Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in vineyards at the 2025 Maryland Grape Growers Association Summer Field Day.
+      May 7, 2026: Presenting current progress and future opportunities for robotic spraying in specialty crops and nursery production at the 2026 Otis L. Floyd Nursery Research Center Field Day.
     </figcaption>
   </figure>
 
@@ -99,9 +66,44 @@ nav_order: 5
       loading="lazy"
     >
     <figcaption>
-      Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in raspberry production at the 2025 Western Maryland Research and Education Center Field Day.
+      July 30, 2025: Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in raspberry production at the 2025 Western Maryland Research and Education Center Field Day.
     </figcaption>
   </figure>
+
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/frec_field_day_2025.png' | relative_url }}"
+      alt="Demonstrating a low-cost orchard sensor station to growers and farmers"
+      loading="lazy"
+    >
+    <figcaption>
+      June 25, 2025: Demonstrating a multifunctional, low-cost sensor station for orchard management to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day.
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/frec_field_day_spray_2025.png' | relative_url }}"
+      alt="Field demonstration of a computer-vision-guided precision sprayer for targeted green fruit chemical thinning."
+      loading="lazy"
+    >
+    <figcaption>
+      June 25, 2025: Demonstrating the integration of computer vision and precision sprayers for targeted green fruit chemical thinning to growers and farmers at the 2025 Penn State Fruit Research and Extension Center Field Day.
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/md_grape.png' | relative_url }}"
+      alt="Vineyard field demonstration of a robotic sprayer for improved spray-region control and coverage."
+      loading="lazy"
+    >
+    <figcaption>
+      June 21, 2025: Demonstrating a robotic sprayer designed to improve control of spray regions and coverage in vineyards at the 2025 Maryland Grape Growers Association Summer Field Day.
+    </figcaption>
+  </figure>
+
+  
 
   <figure class="extension-item">
     <img
@@ -110,7 +112,7 @@ nav_order: 5
       loading="lazy"
     >
     <figcaption>
-      Presenting a low-cost microclimate monitoring system for orchard disease management at the 2025 Mid-Atlantic Fruit and Vegetable Convention.
+      January 30, 2025: Presenting a low-cost microclimate monitoring system for orchard disease management at the 2025 Mid-Atlantic Fruit and Vegetable Convention.
     </figcaption>
   </figure>
 
