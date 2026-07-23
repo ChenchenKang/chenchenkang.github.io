@@ -136,6 +136,17 @@ nav_order: 5
     </figcaption>
   </figure>
 
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/md_nursery_2025.png' | relative_url }}"
+      alt="Demonstrating a four-wheel-drive drone equipped with a ground sprayer at the 2024 Maryland Nursery, Landscape and Greenhouse Association and University of Maryland Extension Tech Field Day."
+      loading="lazy"
+    >
+    <figcaption>
+      June 20, 2024: Demonstrating a robotic sprayer at the 2024 Maryland Nursery, Landscape and Greenhouse Association and University of Maryland Extension Tech Field Day.
+    </figcaption>
+  </figure>
+
 
 
 </div>
