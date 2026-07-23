@@ -1,33 +1,137 @@
 <div class="news">
   {% if site.news != blank %}
+
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
-      <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
+    {% assign news = site.news | reverse %}
+
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+
+    {% if include.limit %}
+
+      <!-- Compact layout for announcements on other pages -->
+      <div
+        class="table-responsive"
+        {% if page.announcements.scrollable and news_size > 3 %}
+          style="max-height: 60vw"
         {% endif %}
+      >
+        <table class="table table-sm table-borderless">
+          {% for item in news limit: news_limit %}
+            <tr>
+              <th scope="row" style="width: 20%">
+                {{ item.date | date: '%b %d, %Y' }}
+              </th>
+
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">
+                    {{ item.title }}
+                  </a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+
+    {% else %}
+
+      <!-- Full layout for the standalone News page -->
+      <div class="news-list">
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+
+          <article class="news-entry{% unless item.image %} news-entry--no-image{% endunless %}">
+
+            <div class="news-entry-content">
+              <time
+                class="news-entry-date"
+                datetime="{{ item.date | date_to_xmlschema }}"
+              >
+                {{ item.date | date: '%B %d, %Y' }}
+              </time>
+
+              {% if item.title %}
+                <h2 class="news-entry-title">
+                  {% if item.link %}
+                    <a href="{{ item.link }}">
+                      {{ item.title }}
+                    </a>
+                  {% elsif item.inline %}
+                    {{ item.title }}
+                  {% else %}
+                    <a href="{{ item.url | relative_url }}">
+                      {{ item.title }}
+                    </a>
+                  {% endif %}
+                </h2>
               {% endif %}
-            </td>
-          </tr>
+
+              <div class="news-entry-summary">
+                {% if item.summary %}
+                  {{ item.summary | markdownify }}
+                {% elsif item.inline %}
+                  {{ item.content | emojify }}
+                {% else %}
+                  {{ item.excerpt | strip_html | truncatewords: 55 }}
+                {% endif %}
+              </div>
+
+              {% if item.link %}
+                <a class="news-entry-link" href="{{ item.link }}">
+                  Read more <span aria-hidden="true">&rarr;</span>
+                </a>
+              {% elsif item.inline != true %}
+                <a class="news-entry-link" href="{{ item.url | relative_url }}">
+                  Read more <span aria-hidden="true">&rarr;</span>
+                </a>
+              {% endif %}
+            </div>
+
+            {% if item.image %}
+              <figure class="news-entry-image">
+                {% if item.link %}
+                  <a href="{{ item.link }}">
+                    <img
+                      src="{{ item.image | relative_url }}"
+                      alt="{{ item.image_alt | default: item.title | escape }}"
+                      loading="lazy"
+                    >
+                  </a>
+                {% elsif item.inline %}
+                  <img
+                    src="{{ item.image | relative_url }}"
+                    alt="{{ item.image_alt | default: item.title | escape }}"
+                    loading="lazy"
+                  >
+                {% else %}
+                  <a href="{{ item.url | relative_url }}">
+                    <img
+                      src="{{ item.image | relative_url }}"
+                      alt="{{ item.image_alt | default: item.title | escape }}"
+                      loading="lazy"
+                    >
+                  </a>
+                {% endif %}
+
+                {% if item.image_caption %}
+                  <figcaption>{{ item.image_caption }}</figcaption>
+                {% endif %}
+              </figure>
+            {% endif %}
+
+          </article>
+
         {% endfor %}
-      </table>
-    </div>
+      </div>
+
+    {% endif %}
+
   {% else %}
     <p>No news so far...</p>
   {% endif %}
