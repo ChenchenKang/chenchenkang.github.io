@@ -1,6 +1,6 @@
 ---
 date: 2026-07-23
-title: "Amiga Flex Arrives at the Lab"
+title: "Amiga Flex Arrives at our lab"
 inline: true
 image: /assets/img/news/amiga-flex.jpg
 image_alt: "Amiga Flex agricultural robot at the Otis L. Floyd Nursery Research Center"
