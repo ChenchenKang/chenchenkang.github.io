@@ -94,7 +94,7 @@
             </div>
 
             {% if item.image %}
-              <figure class="news-entry-image">
+              <figure class="news-entry-image news-entry-image--{{ item.image_size | default: 'medium' }}">
                 {% if item.link %}
                   <a href="{{ item.link }}">
                     <img
