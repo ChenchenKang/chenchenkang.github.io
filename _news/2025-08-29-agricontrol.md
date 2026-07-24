@@ -2,7 +2,7 @@
 date: 2025-08-29
 title: "Kang Attends AGRICONTROL 2025"
 inline: true
-image: /assets/img/news/agricontrol-2025.jpg
+image: /assets/img/news/agricontrol-2025.jpeg
 image_alt: "Kang attending AGRICONTROL 2025 at the University of California, Davis"
 summary: >
   Kang attended AGRICONTROL 2025, the 8th IFAC Conference on Sensing,
