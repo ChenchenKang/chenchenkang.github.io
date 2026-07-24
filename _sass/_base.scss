@@ -1508,7 +1508,7 @@ mjx-container[jax="CHTML"][display="true"] {
 
 .news-entry {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(240px, 0.85fr);
+  grid-template-columns: minmax(0, 1.9fr) minmax(180px, 0.6fr);
   align-items: center;
   gap: 2.5rem;
 
@@ -1578,7 +1578,10 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 .news-entry-image {
+  width: 100%;
+  max-width: 260px;
   margin: 0;
+  justify-self: end;
 }
 
 .news-entry-image img {
