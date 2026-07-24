@@ -426,8 +426,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-dr-kang-joined-tsu-as-an-assistant-professor",
-          title: 'Dr. Kang joined TSU as an Assistant Professor.',
+            },},{id: "news-",
+          title: '',
           description: "",
           section: "News",},{id: "news-",
           title: '',
