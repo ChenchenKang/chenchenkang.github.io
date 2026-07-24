@@ -435,7 +435,9 @@ ninja.data = [{
           section: "News",},{id: "news-",
           title: '',
           description: "",
-          section: "News",},{id: "news-",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-10-23-fira-usa/";
+            },},{id: "news-",
           title: '',
           description: "",
           section: "News",},{id: "news-",
