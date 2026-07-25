@@ -61,6 +61,23 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/news/hale-hines-visit.jpg' | relative_url }}"
+      alt="Kang visiting Hale and Hines Nursery with President Terry Hines"
+      loading="lazy"
+    >
+    <figcaption>
+    Kang visited Hale &amp; Hines Nursery in McMinnville, Tennessee, where
+    President Terry Hines provided a nursery tour and shared valuable insights
+    on automation, labor-saving technologies, and his decades of practical
+    innovation in nursery production.
+    <a href="https://haleandhines.com/terry-hines-featured-in-greenhouse-mgmt/">
+      Learn more about Terry Hines.
+    </a>
+  </figcaption>
+</figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/umd_field_day_2025.png' | relative_url }}"
       alt="Field demonstration of a robotic sprayer for improved spray-region control and coverage in raspberries."
       loading="lazy"
