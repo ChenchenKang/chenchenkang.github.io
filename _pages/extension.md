@@ -66,12 +66,31 @@ nav_order: 5
       loading="lazy"
     >
     <figcaption>
-    Kang visited Hale &amp; Hines Nursery in McMinnville, Tennessee, where
+    October 15, 2025: Kang visited Hale &amp; Hines Nursery in McMinnville, Tennessee, where
     President Terry Hines provided a nursery tour and shared valuable insights
     on automation, labor-saving technologies, and his decades of practical
     innovation in nursery production.
     <a href="https://haleandhines.com/terry-hines-featured-in-greenhouse-mgmt/">
       Learn more about Terry Hines.
+    </a>
+  </figcaption>
+</figure>
+
+<figure class="extension-item">
+  <img
+    src="{{ '/assets/img/extension/easy-tree-nursery-visit.jpg' | relative_url }}"
+    alt="Kang visiting Easy Tree Nursery with grower James Hines"
+    loading="lazy"
+  >
+  <figcaption>
+    September 15, 2025: Kang visited Easy Tree Nursery in Rock Island, Tennessee, where grower
+    James Hines provided a nursery tour and discussed automation, labor-saving
+    technologies, and opportunities for research and Extension collaboration.
+    As a grower who actively embraces technology, James shared valuable
+    perspectives on developing practical automation solutions that address
+    real production needs.
+    <a href="https://www.easytreenursery.com/">
+      Learn more about Easy Tree Nursery.
     </a>
   </figcaption>
 </figure>
