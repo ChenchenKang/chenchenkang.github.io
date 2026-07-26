@@ -204,6 +204,27 @@ nav_order: 5
     </figcaption>
   </figure>
 
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/greens-fruit-farm-visit-2024.jpg' | relative_url }}"
+      alt="Kang and Dr. Long He visiting Green's Fruit Farm with Bobby and Sara Hricko and Erik Quanbeck"
+      loading="lazy"
+    >
+    <figcaption>
+      On March 8, 2024, Kang and Dr. Long He visited Green&rsquo;s Fruit Farm
+      and met with growers Bobby and Sara Hricko. Erik Quanbeck, High-Value
+      Crops Sales Manager at LandPro Equipment, also joined the visit and
+      demonstrated the Smart Apply precision spray system. The group discussed
+      precision spraying technologies and their potential applications in
+      orchard production. The visit also provided an opportunity to learn about
+      the farm&rsquo;s orchard management practices and the production challenges
+      faced by Bobby and Sara.
+      <a href="https://www.greensfruitfarm.com/">
+        Learn more about Green&rsquo;s Fruit Farm.
+      </a>
+    </figcaption>
+  </figure>
+
  <figure class="extension-item">
     <img
       src="{{ '/assets/img/extension/frec_precision_ag_field_day_2023.png' | relative_url }}"
