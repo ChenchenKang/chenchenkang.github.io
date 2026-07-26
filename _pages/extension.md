@@ -349,6 +349,36 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/acn-picking-platform-2024.jpg' | relative_url }}"
+      alt="Apple growers attending a harvesting-platform demonstration at an Adams County Nursery orchard"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2024-08-23">August 23, 2024</time>:
+        Kang joined a group of apple growers for a field demonstration of an
+        apple-harvesting platform at an Adams County Nursery orchard, where the
+        group observed its use during commercial picking operations
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and discussed its effects on harvesting speed, worker organization,
+          and orchard workflow. Kang spoke with Adams County Nursery grower
+          John Paul Baugher about improvements in picking efficiency and his
+          experience managing labor crews with the platform. Kang also exchanged
+          perspectives with other growers about the benefits, limitations, and
+          practical adoption of harvesting platforms in apple production.
+          <a href="https://acnursery.com/">
+            Learn more about Adams County Nursery.
+          </a>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/agprogress_2024.png' | relative_url }}"
       alt="Demonstration of an IoT and computer-vision monitoring system at Penn State Ag Progress Days"
       loading="lazy"
