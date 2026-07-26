@@ -396,6 +396,42 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/spring-orchard-meeting-2024.jpg' | relative_url }}"
+      alt="Kang, Dr. Long He, and Dr. Shanthanu Krishna Kumar attending a drone sprayer demonstration at K. Schlegel Fruit Farm"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2024-05-08">May 8, 2024</time>:
+        Kang attended a Penn State Extension Spring Orchard Meeting at K. Schlegel
+        Fruit Farm with Dr. Long He and Dr. Shanthanu Krishna Kumar, where a
+        company demonstrated a drone sprayer to growers,
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          prompting discussion of the technology&rsquo;s potential benefits,
+          practical limitations, and suitability for tree-fruit production.
+          The growers&rsquo; strong interest and concerns about spray coverage,
+          application volume, effectiveness, maintenance, and cost helped
+          motivate subsequent drone-spraying research led by Kumar, with He
+          serving as co-principal investigator. Kang also learned more about
+          orchard management practices and the production challenges faced by
+          commercial fruit growers.
+          <a href="https://www.kschlegelfruitfarm.com/">
+            Learn more about K. Schlegel Fruit Farm.
+          </a>
+          <br>
+          <a href="https://www.psu.edu/news/research/story/are-drones-future-tree-fruit-production-researchers-investigate">
+            Learn more about the drone-spraying research.
+          </a>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/greens-fruit-farm-visit-2024.jpg' | relative_url }}"
       alt="Kang and Dr. Long He visiting Green's Fruit Farm"
       loading="lazy"
