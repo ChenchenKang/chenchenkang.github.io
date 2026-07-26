@@ -460,6 +460,35 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/adams-county-nursery-2024.jpg' | relative_url }}"
+      alt="Kang and Dr. Long He examining a tree-grading system at Adams County Nursery"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2024-01-11">January 11, 2024</time>:
+        Kang and Dr. Long He visited Adams County Nursery to examine its
+        tree-grading system and meet with Adam Baugher, who described the need
+        to upgrade the system
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          to reduce manual labor and improve operational efficiency. They
+          discussed potential modifications to increase the system&rsquo;s level
+          of automation and better support commercial nursery operations.
+          <a href="https://acnursery.com/">
+            Learn more about Adams County Nursery.
+          </a>
+          <br>
+          <small>Photo credit: Adams County Nursery.</small>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/frec_precision_ag_field_day_2023.png' | relative_url }}"
       alt="Vineyard demonstration of a robotic sprayer at a Penn State Extension field day"
       loading="lazy"
