@@ -84,8 +84,8 @@ nav_order: 5
   >
   <figcaption>
     September 15, 2025: Kang visited Easy Tree Nursery in Rock Island, Tennessee, where grower
-    James Hines provided a nursery tour and discussed automation, labor-saving
-    technologies, and opportunities for research and Extension collaboration.
+    James Hines provided a nursery tour and discussed automation, precision ag
+    technologies, and opportunities for research and extension collaboration.
     As a grower who actively embraces technology, James shared valuable
     perspectives on developing practical automation solutions that address
     real production needs.
@@ -158,6 +158,27 @@ nav_order: 5
     >
     <figcaption>
       January 30, 2025: Presenting a low-cost microclimate monitoring system for orchard disease management at the 2025 Mid-Atlantic Fruit and Vegetable Convention.
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
+      src="{{ '/assets/img/extension/yga-tour.jpg' | relative_url }}"
+      alt="Kang visiting R and L Orchard and Lerew Orchards during the 2024 Young Grower Alliance Fall Tour"
+      loading="lazy"
+    >
+    <figcaption>
+      November 19, 2024: Kang attended the Young Grower Alliance Fall Tour
+      and visited R&amp;L Orchard and Lerew Orchards. The tour provided an
+      opportunity to exchange ideas about practical orchard management,
+      including pruning, thinning, pest and disease management, labor,
+      equipment, new technologies, and other challenges faced by apple growers.
+      Kang also connected with young growers and gained valuable perspectives
+      on how the next generation is adopting new technologies and innovative
+      practices in orchard production.
+      <a href="https://agsci.psu.edu/research/centers-facilities/extension/frec/yga">
+        Learn more about the Young Grower Alliance.
+      </a>
     </figcaption>
   </figure>
 
