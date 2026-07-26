@@ -37,15 +37,11 @@ nav_order: 5
   }
 
   /*
-   * Show exactly three lines when the dropdown is closed.
-   * The fixed height keeps cards in the same row aligned.
+   * Keeps the visible portions of the captions approximately
+   * the same height without cutting text automatically.
    */
   .extension-preview {
-    display: -webkit-box;
-    height: 4.5em;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    min-height: 4.5em;
   }
 
   .extension-date {
@@ -73,17 +69,17 @@ nav_order: 5
   }
 
   .extension-details[open] summary {
-    margin-bottom: 0.45rem;
+    margin-bottom: 0.4rem;
   }
 
-  .extension-details-content {
+  .extension-continuation {
     font-size: 0.9rem;
     line-height: 1.5;
   }
 
-  .extension-details-content a {
+  .extension-continuation a {
     display: inline-block;
-    margin-top: 0.25rem;
+    margin-top: 0.3rem;
   }
 
   @media (max-width: 768px) {
@@ -95,6 +91,10 @@ nav_order: 5
   @media (max-width: 576px) {
     .extension-gallery {
       grid-template-columns: 1fr;
+    }
+
+    .extension-preview {
+      min-height: 0;
     }
   }
 </style>
@@ -110,16 +110,16 @@ nav_order: 5
     <figcaption>
       <div class="extension-preview">
         <time class="extension-date" datetime="2026-05-07">May 7, 2026</time>:
-        Kang presented recent progress and future opportunities for robotic
-        spraying in specialty crops and nursery production at the Otis L. Floyd
-        Nursery Research Center Field Day.
+        Kang participated in the Otis L. Floyd Nursery Research Center Field
+        Day, where he presented recent progress and future opportunities for
+        robotic spraying in specialty crops and nursery production,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          Following the presentation, Kang hosted a laboratory tour and
-          introduced ongoing research involving agricultural robotics, sensing,
-          precision application, and automation for specialty crop production.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and subsequently hosted a laboratory tour introducing ongoing
+          research in agricultural robotics, sensing, precision application,
+          and automation for specialty crop production.
         </div>
       </details>
     </figcaption>
@@ -136,14 +136,13 @@ nav_order: 5
         <time class="extension-date" datetime="2025-10-15">October 15, 2025</time>:
         Kang visited Hale &amp; Hines Nursery in McMinnville, Tennessee, where
         President Terry Hines provided a nursery tour and discussed automation
-        and labor-saving technologies.
+        and labor-saving technologies,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          Hines shared insights from his decades of practical innovation in
-          nursery production, including improvements in production systems,
-          irrigation, equipment, and operational efficiency.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          as well as his decades of practical innovation in production
+          systems, irrigation, equipment, and nursery operational efficiency.
           <a href="https://haleandhines.com/terry-hines-featured-in-greenhouse-mgmt/">
             Learn more about Terry Hines.
           </a>
@@ -163,14 +162,14 @@ nav_order: 5
         <time class="extension-date" datetime="2025-09-15">September 15, 2025</time>:
         Kang visited Easy Tree Nursery in Rock Island, Tennessee, where grower
         James Hines provided a nursery tour and discussed automation and
-        precision agriculture technologies.
+        precision agriculture technologies,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          As a grower who embraces technology, James shared practical
-          perspectives on labor-saving systems and opportunities for research
-          and Extension collaboration addressing real nursery production needs.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          along with opportunities for research and Extension collaboration
+          focused on practical, labor-saving solutions for commercial nursery
+          production.
           <a href="https://www.easytreenursery.com/">
             Learn more about Easy Tree Nursery.
           </a>
@@ -190,14 +189,14 @@ nav_order: 5
         <time class="extension-date" datetime="2025-07-30">July 30, 2025</time>:
         Kang demonstrated a robotic sprayer designed to improve spray-region
         control and coverage in raspberry production at the Western Maryland
-        Research and Education Center Field Day.
+        Research and Education Center Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The demonstration highlighted opportunities to improve spray
-          targeting and canopy coverage through robotic control technologies
-          adapted for specialty crop production.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          while discussing opportunities to improve spray targeting and canopy
+          coverage through robotic control technologies adapted for specialty
+          crops.
         </div>
       </details>
     </figcaption>
@@ -214,12 +213,12 @@ nav_order: 5
         <time class="extension-date" datetime="2025-06-25">June 25, 2025</time>:
         Kang demonstrated a multifunctional, low-cost sensor station for
         orchard management at the Penn State Fruit Research and Extension
-        Center Field Day.
+        Center Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          Kang discussed how affordable sensing systems can support
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and discussed how affordable sensing systems can support
           microclimate monitoring, disease management, and data-informed
           decision-making in commercial orchards.
         </div>
@@ -238,14 +237,13 @@ nav_order: 5
         <time class="extension-date" datetime="2025-06-25">June 25, 2025</time>:
         Kang demonstrated the integration of computer vision and precision
         spraying for targeted green-fruit chemical thinning at the Penn State
-        Fruit Research and Extension Center Field Day.
+        Fruit Research and Extension Center Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The demonstration showed how fruit detection and targeted spraying
-          can improve thinning precision while reducing unnecessary chemical
-          application.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          showing how fruit detection and targeted application can improve
+          thinning precision while reducing unnecessary chemical use.
         </div>
       </details>
     </figcaption>
@@ -262,13 +260,14 @@ nav_order: 5
         <time class="extension-date" datetime="2025-06-21">June 21, 2025</time>:
         Kang demonstrated a robotic sprayer designed to improve spray-region
         control and coverage in vineyards at the Maryland Grape Growers
-        Association Summer Field Day.
+        Association Summer Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The demonstration introduced approaches for adapting robotic spray
-          control to vineyard canopy structures and variable field conditions.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and discussed approaches for adapting robotic spray-control
+          technologies to vineyard canopy structures and variable field
+          conditions.
         </div>
       </details>
     </figcaption>
@@ -285,14 +284,14 @@ nav_order: 5
         <time class="extension-date" datetime="2025-01-29">January 29, 2025</time>:
         Kang gave an invited presentation on Internet of Things and computer
         vision technologies for monitoring soilless greenhouse leafy green
-        production.
+        production,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The presentation discussed integrated sensing and imaging
-          technologies for monitoring crop growth and supporting improved
-          management of controlled-environment production systems.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          highlighting integrated sensing and imaging approaches for monitoring
+          crop growth and improving controlled-environment production
+          management.
         </div>
       </details>
     </figcaption>
@@ -308,14 +307,13 @@ nav_order: 5
       <div class="extension-preview">
         <time class="extension-date" datetime="2025-01-30">January 30, 2025</time>:
         Kang presented a low-cost microclimate monitoring system for orchard
-        disease management at the Mid-Atlantic Fruit and Vegetable Convention.
+        disease management at the Mid-Atlantic Fruit and Vegetable Convention,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The presentation introduced an affordable approach to collecting
-          localized environmental data that can support orchard monitoring and
-          disease-management decisions.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and explained how localized environmental data can support orchard
+          monitoring and more informed disease-management decisions.
         </div>
       </details>
     </figcaption>
@@ -331,16 +329,16 @@ nav_order: 5
       <div class="extension-preview">
         <time class="extension-date" datetime="2024-11-19">November 19, 2024</time>:
         Kang attended the Young Grower Alliance Fall Tour and visited R&amp;L
-        Orchard and Lerew Orchards to connect with young apple growers.
+        Orchard and Lerew Orchards, where participants exchanged ideas about
+        pruning, thinning, and pest and disease management,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          Participants exchanged ideas about pruning, crop-load management,
-          thinning, pest and disease management, labor, equipment, emerging
-          technologies, and other challenges faced by apple growers. The tour
-          also provided valuable perspectives on how the next generation of
-          growers is adopting new technologies and innovative practices.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          as well as labor, equipment, emerging technologies, and other
+          challenges faced by apple growers. Kang also gained valuable
+          perspectives on how the next generation of growers is adopting new
+          technologies and innovative orchard-production practices.
           <a href="https://agsci.psu.edu/research/centers-facilities/extension/frec/yga">
             Learn more about the Young Grower Alliance.
           </a>
@@ -360,13 +358,13 @@ nav_order: 5
         <time class="extension-date" datetime="2024-08-14">August 14, 2024</time>:
         Kang demonstrated a monitoring system and presented the use of IoT and
         computer vision for soilless greenhouse leafy green production at Penn
-        State Ag Progress Days.
+        State Ag Progress Days,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The session showed how integrated sensing, imaging, and data
-          technologies can improve crop monitoring, production management, and
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          illustrating how integrated sensing, imaging, and data technologies
+          can improve crop monitoring, production management, and
           sustainability in controlled-environment agriculture.
         </div>
       </details>
@@ -384,14 +382,13 @@ nav_order: 5
         <time class="extension-date" datetime="2024-06-20">June 20, 2024</time>:
         Kang demonstrated a four-wheel-drive ground robotic sprayer at the
         Maryland Nursery, Landscape and Greenhouse Association and University
-        of Maryland Extension Tech Field Day.
+        of Maryland Extension Tech Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The demonstration introduced a mobile robotic platform for
-          agricultural spraying and discussed its potential application in
-          nursery and specialty crop production.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and discussed the platform&rsquo;s potential applications for
+          automated spraying in nursery and specialty crop production.
         </div>
       </details>
     </figcaption>
@@ -408,16 +405,15 @@ nav_order: 5
         <time class="extension-date" datetime="2024-03-08">March 8, 2024</time>:
         Kang and Dr. Long He visited Green&rsquo;s Fruit Farm and met with
         growers Bobby and Sara Hricko to discuss orchard production and
-        precision spraying.
+        precision spraying,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          Erik Quanbeck, High-Value Crops Equipment Sales Manager at LandPro
-          Equipment, LLC, joined the visit and demonstrated the Smart Apply
-          precision spray system. The group discussed precision spray
-          technologies, orchard management practices, and production
-          challenges faced by Bobby and Sara.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          while Erik Quanbeck, High-Value Crops Equipment Sales Manager at
+          LandPro Equipment, LLC, demonstrated the Smart Apply precision spray
+          system. The group also discussed orchard-management practices and
+          production challenges faced by Bobby and Sara.
           <a href="https://www.greensfruitfarm.com/">
             Learn more about Green&rsquo;s Fruit Farm.
           </a>
@@ -437,14 +433,13 @@ nav_order: 5
         <time class="extension-date" datetime="2023-09-15">September 15, 2023</time>:
         Kang demonstrated a robotic sprayer designed to improve spray-region
         control and coverage in vineyards at the Penn State Extension Plant
-        Protection Field Day.
+        Protection Field Day,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The field demonstration introduced robotic spraying technologies
-          intended to improve application control and canopy coverage in
-          vineyard production.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          highlighting the potential of robotic control technologies to improve
+          spray targeting and canopy coverage in vineyard production.
         </div>
       </details>
     </figcaption>
@@ -461,13 +456,13 @@ nav_order: 5
         <time class="extension-date" datetime="2022-11-17">November 17, 2022</time>:
         Kang presented the use of proximal hyperspectral imaging to assess
         grapevine nitrogen content at the Washington State Grape Society Annual
-        Meeting and Trade Show.
+        Meeting and Trade Show,
       </div>
       <details class="extension-details">
-        <summary>More details</summary>
-        <div class="extension-details-content">
-          The presentation introduced imaging and data-analysis approaches for
-          rapid, non-destructive assessment of grapevine nutrient status.
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and discussed imaging and data-analysis approaches for rapid,
+          non-destructive assessment of grapevine nutrient status.
         </div>
       </details>
     </figcaption>
