@@ -127,6 +127,34 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/home-nursery-visit-2025.jpg' | relative_url }}"
+      alt="Kang visiting Home Nursery's Tennessee Farm with Farm Manager Jason Peace"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2025-10-16">October 16, 2025</time>:
+        Kang visited Home Nursery&rsquo;s Tennessee Farm in McMinnville,
+        Tennessee, and met with Farm Manager Jason Peace to discuss automation
+        technologies for container nursery production,
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          including opportunities to reduce labor requirements and improve
+          production efficiency. During the visit, Kang examined the farm&rsquo;s
+          automated pruning machine and learned how mechanized pruning is
+          incorporated into commercial container nursery operations.
+          <a href="https://www.homenursery.com/Locations/Tennessee-Farm">
+            Learn more about Home Nursery&rsquo;s Tennessee Farm.
+          </a>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/hale-hines-visit.jpg' | relative_url }}"
       alt="Kang visiting Hale and Hines Nursery with President Terry Hines"
       loading="lazy"
