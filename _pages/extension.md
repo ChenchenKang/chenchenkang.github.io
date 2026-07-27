@@ -360,7 +360,7 @@ nav_order: 5
             target="_blank"
             rel="noopener noreferrer"
           >
-            View presentation slides (PDF).
+            View presentation slides (PDF)
           </a>
           
         </div>
