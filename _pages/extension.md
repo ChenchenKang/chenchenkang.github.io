@@ -153,6 +153,33 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/blankenship-farms-visit-2025.jpg' | relative_url }}"
+      alt="Kang visiting Blankenship Farms and Nursery with grower Jerry Blankenship"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2025-09-19">September 19, 2025</time>:
+        Kang visited Blankenship Farms and Nursery in McMinnville, Tennessee,
+        and met with grower Jerry Blankenship to discuss potential robotic
+        spraying systems for nursery production,
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          including the potential use of drone sprayers to improve application
+          efficiency, reduce labor requirements, and address practical spraying
+          challenges in commercial nurseries.
+          <a href="https://www.blankenshipfarmsandnursery.com/">
+            Learn more about Blankenship Farms and Nursery.
+          </a>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/easy-tree-nursery-visit.jpg' | relative_url }}"
       alt="Kang visiting Easy Tree Nursery with grower James Hines"
       loading="lazy"
