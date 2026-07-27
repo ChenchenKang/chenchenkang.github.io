@@ -347,6 +347,15 @@ nav_order: 5
           highlighting integrated sensing and imaging approaches for monitoring
           crop growth and improving controlled-environment production
           management.
+
+          <a
+            href="{{ '/assets/pdf/extension/mafvc-iot-greenhouse-2025.pdf' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View presentation slides (PDF).
+          </a>
+          
         </div>
       </details>
     </figcaption>
