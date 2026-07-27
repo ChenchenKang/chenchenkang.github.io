@@ -385,6 +385,7 @@ nav_order: 5
         <div class="extension-continuation">
           and explained how localized environmental data can support orchard
           monitoring and more informed disease-management decisions.
+          
           <a
             href="{{ '/assets/pdf/extension/mafvc_weather_2025.pdf' | relative_url }}"
             target="_blank"
@@ -392,6 +393,7 @@ nav_order: 5
           >
             View presentation slides (PDF)
           </a>
+          
         </div>
       </details>
     </figcaption>
