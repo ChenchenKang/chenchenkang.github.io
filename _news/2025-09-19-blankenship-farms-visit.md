@@ -4,7 +4,6 @@ title: "Kang Visits Blankenship Farms and Nursery"
 inline: true
 link: https://www.blankenshipfarmsandnursery.com/
 image: /assets/img/news/blankenship-farms-visit-2025.jpg
-image_size: large
 image_alt: "Kang visiting Blankenship Farms and Nursery with grower Jerry Blankenship"
 summary: >
   Kang visited Blankenship Farms and Nursery in McMinnville, Tennessee,
