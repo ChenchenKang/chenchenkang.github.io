@@ -1640,3 +1640,108 @@ mjx-container[jax="CHTML"][display="true"] {
     aspect-ratio: 16 / 9;
   }
 }
+// News grouped by year
+.news-years {
+  width: 100%;
+}
+
+.news-year {
+  width: 100%;
+}
+
+.news-year-heading {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--global-theme-color);
+  font-size: 1.6rem;
+}
+
+.news-year--archive {
+  margin-top: 1.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.news-year-summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  color: var(--global-text-color);
+  background-color: var(--global-card-bg-color);
+  cursor: pointer;
+  list-style: none;
+}
+
+.news-year-summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-year-summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  color: var(--global-theme-color);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.news-year--archive[open] > .news-year-summary::after {
+  content: "−";
+}
+
+.news-year-summary:hover {
+  color: var(--global-theme-color);
+}
+
+.news-year-summary-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.news-year-count {
+  margin-left: auto;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.news-year--archive[open] > .news-year-summary {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.news-year-list {
+  padding: 1.25rem;
+}
+
+.news-year-list .news-entry:first-child {
+  padding-top: 0;
+}
+
+.news-year-list .news-entry:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .news-year-heading {
+    font-size: 1.4rem;
+  }
+
+  .news-year-summary {
+    padding: 0.9rem 1rem;
+  }
+
+  .news-year-summary-title {
+    font-size: 1.15rem;
+  }
+
+  .news-year-count {
+    display: none;
+  }
+
+  .news-year-list {
+    padding: 1rem;
+  }
+}
