@@ -131,10 +131,6 @@ nav_order: 5
           >
             View presentation slides (PDF)
           </a>
-
-          
-
-          https://www.facebook.com/share/v/19PRLroSGp/
         </div>
       </details>
     </figcaption>
