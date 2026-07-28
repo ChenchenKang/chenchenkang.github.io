@@ -120,6 +120,10 @@ nav_order: 5
           and subsequently hosted a laboratory tour introducing ongoing
           research in agricultural robotics, sensing, precision application,
           and automation for specialty crop production.
+          <a href="https://www.facebook.com/share/v/19PRLroSGp/">
+            Learn more about NRC Field Day.
+          </a>
+          
           <a
             href="{{ '/assets/pdf/extension/nrc_field_day.pdf' | relative_url }}"
             target="_blank"
@@ -127,6 +131,10 @@ nav_order: 5
           >
             View presentation slides (PDF)
           </a>
+
+          
+
+          https://www.facebook.com/share/v/19PRLroSGp/
         </div>
       </details>
     </figcaption>
