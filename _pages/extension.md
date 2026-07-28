@@ -242,6 +242,35 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/tennessee-small-farm-expo-2025.jpg' | relative_url }}"
+      alt="Kang attending the 2025 Tennessee Small Farm Expo"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2025-09-04">September 4, 2025</time>:
+        Kang attended the 2025 Tennessee Small Farm Expo at Tennessee State
+        University,
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          where he connected with farmers, Extension professionals, researchers,
+          and agricultural organizations. The event provided a valuable
+          opportunity to learn more about Extension programs, resources, and
+          services available to agricultural producers across Tennessee,
+          particularly those offered by Tennessee State University and the
+          University of Tennessee Institute of Agriculture.
+          <a href="https://www.flickr.com/photos/143185401@N03/albums/72177720328849043/">
+            Learn more about the Tennessee Small Farm Expo.
+          </a>
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/umd_field_day_2025.png' | relative_url }}"
       alt="Field demonstration of a robotic sprayer for raspberry production"
       loading="lazy"
