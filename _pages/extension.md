@@ -229,7 +229,7 @@ nav_order: 5
       <details class="extension-details">
         <summary>Continue reading</summary>
         <div class="extension-continuation">
-          along with opportunities for research and Extension collaboration
+          along with opportunities for research and extension collaboration
           focused on practical, labor-saving solutions for commercial nursery
           production.
           <a href="https://www.easytreenursery.com/">
@@ -255,9 +255,9 @@ nav_order: 5
       <details class="extension-details">
         <summary>Continue reading</summary>
         <div class="extension-continuation">
-          where he connected with farmers, Extension professionals, researchers,
+          where he connected with farmers, extension professionals, researchers,
           and agricultural organizations. The event provided a valuable
-          opportunity to learn more about Extension programs, resources, and
+          opportunity to learn more about extension programs, resources, and
           services available to agricultural producers across Tennessee,
           particularly those offered by Tennessee State University and the
           University of Tennessee Institute of Agriculture.
