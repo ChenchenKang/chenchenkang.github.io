@@ -7,10 +7,6 @@
    Media page
    ========================================================================== */
 
-/* ==========================================================================
-   Media page
-   ========================================================================== */
-
 .media-page {
   margin-top: 1.25rem;
 }
@@ -25,28 +21,41 @@
   margin-top: 2.75rem;
 }
 
-/* Individual media entry */
+/* Two-column media entry */
 
-.media-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 65fr) minmax(240px, 35fr);
+.media-page .media-entry {
+  display: flex !important;
+  flex-direction: row;
   align-items: center;
+  width: 100%;
   gap: 2rem;
   padding: 1.6rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-/* Optional divider above the first entry */
-
-.media-section-title + .media-entry {
+.media-page .media-section-title + .media-entry {
   border-top: 1px solid var(--global-divider-color);
 }
 
-/* Left-side text */
+/* Left column: approximately 65% */
 
-.media-entry__content {
+.media-page .media-entry__content {
+  flex: 0 1 65%;
+  width: 65%;
   min-width: 0;
 }
+
+/* Right column: approximately 35% */
+
+.media-page .media-entry__visual {
+  flex: 0 0 calc(35% - 2rem);
+  width: calc(35% - 2rem);
+  max-width: calc(35% - 2rem);
+  margin: 0 !important;
+  padding: 0;
+}
+
+/* Article title */
 
 .media-entry__title {
   margin: 0 0 0.45rem;
@@ -64,12 +73,16 @@
   color: var(--global-theme-color);
 }
 
+/* Publication and date */
+
 .media-entry__meta {
   margin: 0 0 0.7rem;
   color: var(--global-text-color-light);
   font-size: 0.92rem;
   line-height: 1.45;
 }
+
+/* Article summary */
 
 .media-entry__description {
   margin: 0 0 0.75rem;
@@ -85,7 +98,7 @@
   margin-bottom: 0;
 }
 
-/* Online article and PDF links */
+/* Online and PDF links */
 
 .media-entry__links {
   display: flex;
@@ -106,7 +119,7 @@
   text-decoration: underline;
 }
 
-/* Optional podcast label */
+/* Podcast label */
 
 .media-entry__label {
   display: inline-block;
@@ -121,14 +134,9 @@
   border-radius: 0.25rem;
 }
 
-/* Right-side image and optional caption */
+/* Landscape image */
 
-.media-entry__visual {
-  width: 100%;
-  margin: 0;
-}
-
-.media-entry__image {
+.media-page .media-entry__image {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -137,11 +145,12 @@
   background-color: var(--global-divider-color);
 }
 
-.media-entry__image img {
+.media-page .media-entry__image img {
   display: block;
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+  margin: 0 !important;
   object-fit: cover;
   transition: transform 0.25s ease;
 }
@@ -150,15 +159,7 @@
   transform: scale(1.025);
 }
 
-.media-entry__caption {
-  margin: 0.45rem 0 0;
-  color: var(--global-text-color-light);
-  font-size: 0.78rem;
-  line-height: 1.4;
-  text-align: left;
-}
-
-/* Reprints and syndication dropdown */
+/* Reprints dropdown */
 
 .media-reprints {
   margin-top: 0.9rem;
@@ -185,22 +186,24 @@
   color: var(--global-text-color-light);
 }
 
-/* Tablet and phone layout */
+/* Mobile: text first, image below */
 
 @media (max-width: 768px) {
-  .media-entry {
-    grid-template-columns: 1fr;
+  .media-page .media-entry {
+    flex-direction: column !important;
+    align-items: stretch;
     gap: 1rem;
     padding: 1.4rem 0;
   }
 
-  /*
-    The text appears first and the image appears below it
-    because media-entry__content comes before media-entry__visual
-    in the HTML.
-  */
+  .media-page .media-entry__content,
+  .media-page .media-entry__visual {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }
 
-  .media-entry__image {
+  .media-page .media-entry__image {
     aspect-ratio: 16 / 9;
   }
 }
