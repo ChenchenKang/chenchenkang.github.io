@@ -26,9 +26,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This profile introduces Kang’s background in agricultural robotics,
-          sensing, and AI and his plans to develop practical automation
-          technologies for Tennessee’s nursery industry.
+          A profile of Kang’s background and plans to advance robotics, sensing,
+          and AI for nursery production.
         </p>
       </div>
 
@@ -88,8 +87,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article examines how variable-rate spraying can reduce chemical
-          use while maintaining effective crop protection in orchards.
+          This article highlights variable-rate spraying as a way to reduce
+          chemical use in orchards.
         </p>
       </div>
 
@@ -149,8 +148,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This technical feature describes a camera-based system that uses AI
-          and IoT technologies to monitor greenhouse crop growth.
+          A technical overview of an AI- and IoT-based computer-vision system
+          for greenhouse crop monitoring.
         </p>
       </div>
 
@@ -210,8 +209,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article highlights an AI- and IoT-enabled system for automated
-          monitoring of specialty crops in greenhouse production.
+          This article features an AI- and IoT-enabled system for automated
+          greenhouse crop monitoring.
         </p>
       </div>
 
@@ -271,8 +270,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article presents a computer-vision platform for continuously
-          measuring crop growth and greenhouse production conditions.
+          This article presents a computer-vision platform for monitoring crop
+          growth and greenhouse conditions.
         </p>
       </div>
 
@@ -332,8 +331,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article describes how AI models and computer vision were used to
-          automate plant-growth tracking in greenhouse production.
+          This article describes the use of AI and computer vision to automate
+          plant-growth tracking.
         </p>
       </div>
 
@@ -393,8 +392,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This Penn State release introduces a computer-vision and IoT system
-          for monitoring crop growth and greenhouse environmental conditions.
+          This release introduces a computer-vision and IoT system for
+          continuous greenhouse crop monitoring.
         </p>
       </div>
 
@@ -528,8 +527,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article explores sensing and imaging technologies for assessing
-          grapevine water status and improving vineyard irrigation decisions.
+          This article explores sensing technologies for assessing grapevine
+          water status and improving irrigation.
         </p>
       </div>
 
@@ -598,8 +597,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This episode discusses the practical challenges of developing and
-          deploying sensing technologies for vineyard research and management.
+          This episode discusses the challenges of developing and deploying
+          vineyard sensing technologies.
         </p>
       </div>
 
