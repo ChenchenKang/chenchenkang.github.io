@@ -62,19 +62,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read Meet Dr. Chenchen Kang"
-    >
-      <img
-        src="{{ '/assets/img/media/tennessee-greentimes-2025.jpg' | relative_url }}"
-        alt="Meet Dr. Chenchen Kang in Tennessee Greentimes"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read Meet Dr. Chenchen Kang"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/tennessee-greentimes-2025.jpg' | relative_url }}"
+          alt="Meet Dr. Chenchen Kang in Tennessee Greentimes"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -130,19 +132,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read Variable-rate spraying shows promise in orchards"
-    >
-      <img
-        src="{{ '/assets/img/media/variable-rate-spraying-orchards-2025.jpg' | relative_url }}"
-        alt="Variable-rate spraying research in an orchard"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read Variable-rate spraying shows promise in orchards"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/variable-rate-spraying-orchards-2025.jpg' | relative_url }}"
+          alt="Variable-rate spraying research in an orchard"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -198,19 +202,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read Machine vision system monitors greenhouse-grown specialty crop"
-    >
-      <img
-        src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
-        alt="Computer vision system monitoring greenhouse-grown crops"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read Machine vision system monitors greenhouse-grown specialty crop"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          alt="Computer vision system monitoring greenhouse-grown crops"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -266,19 +272,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read the Quantum Zeitgeist article"
-    >
-      <img
-        src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
-        alt="Greenhouse computer vision, IoT, and AI monitoring system"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read the Quantum Zeitgeist article"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          alt="Greenhouse computer vision, IoT, and AI monitoring system"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -333,19 +341,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read the Bioengineer.org article"
-    >
-      <img
-        src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
-        alt="Computer vision monitoring of greenhouse specialty crops"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read the Bioengineer.org article"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          alt="Computer vision monitoring of greenhouse specialty crops"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -401,19 +411,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read the Fertilizer Daily article"
-    >
-      <img
-        src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
-        alt="AI-based computer vision system tracking plant growth"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read the Fertilizer Daily article"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          alt="AI-based computer vision system tracking plant growth"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -541,19 +553,21 @@ nav_order: 4
       </details>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read the Penn State research release"
-    >
-      <img
-        src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
-        alt="Penn State greenhouse specialty-crop monitoring system"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read the Penn State research release"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          alt="Penn State greenhouse specialty-crop monitoring system"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -609,19 +623,21 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Read Spectrum smart vineyard irrigation"
-    >
-      <img
-        src="{{ '/assets/img/media/smart-vineyard-irrigation-2021.jpg' | relative_url }}"
-        alt="Smart sensing and irrigation research in a vineyard"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Read Spectrum smart vineyard irrigation"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/smart-vineyard-irrigation-2021.jpg' | relative_url }}"
+          alt="Smart sensing and irrigation research in a vineyard"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 
 
@@ -675,18 +691,20 @@ nav_order: 4
       </div>
     </div>
 
-    <a
-      class="media-entry__image"
-      href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Listen to Challenges of developing field sensors"
-    >
-      <img
-        src="{{ '/assets/img/media/hires-vineyard-podcast-2023.jpg' | relative_url }}"
-        alt="HiRes Vineyard Nutrition Podcast"
-        loading="lazy"
+    <figure class="media-entry__visual">
+      <a
+        class="media-entry__image"
+        href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Listen to Challenges of developing field sensors"
       >
-    </a>
+        <img
+          src="{{ '/assets/img/media/hires-vineyard-podcast-2023.jpg' | relative_url }}"
+          alt="HiRes Vineyard Nutrition Podcast"
+          loading="lazy"
+        >
+      </a>
+    </figure>
   </article>
 </div>
