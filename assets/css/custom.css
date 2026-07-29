@@ -1,5 +1,5 @@
 .profile img {
-  max-width: 80px;   /* adjust: 160–220px is typical */
+  max-width: 80px;
   height: auto;
 }
 
@@ -26,12 +26,15 @@
 .media-page .media-entry {
   display: flex !important;
   flex-direction: row;
+  flex-wrap: nowrap !important;
   align-items: center;
   width: 100%;
   gap: 2rem;
   padding: 1.6rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
+
+/* Divider above the first entry in each section */
 
 .media-page .media-section-title + .media-entry {
   border-top: 1px solid var(--global-divider-color);
@@ -51,6 +54,7 @@
   flex: 0 0 calc(35% - 2rem);
   width: calc(35% - 2rem);
   max-width: calc(35% - 2rem);
+  min-width: 0;
   margin: 0 !important;
   padding: 0;
 }
@@ -98,7 +102,7 @@
   margin-bottom: 0;
 }
 
-/* Online and PDF links */
+/* Online article and PDF links */
 
 .media-entry__links {
   display: flex;
@@ -155,11 +159,11 @@
   transition: transform 0.25s ease;
 }
 
-.media-entry__image:hover img {
+.media-page .media-entry__image:hover img {
   transform: scale(1.025);
 }
 
-/* Reprints dropdown */
+/* Reprints and syndication dropdown */
 
 .media-reprints {
   margin-top: 0.9rem;
@@ -191,6 +195,7 @@
 @media (max-width: 768px) {
   .media-page .media-entry {
     flex-direction: column !important;
+    flex-wrap: nowrap !important;
     align-items: stretch;
     gap: 1rem;
     padding: 1.4rem 0;
