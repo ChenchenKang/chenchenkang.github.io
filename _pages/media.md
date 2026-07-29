@@ -183,7 +183,7 @@ nav_order: 4
         aria-label="Read the Vision Systems Design article"
       >
         <img
-          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Computer vision system monitoring greenhouse-grown crops"
           loading="lazy"
         >
@@ -244,7 +244,7 @@ nav_order: 4
         aria-label="Read the Quantum Zeitgeist article"
       >
         <img
-          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Greenhouse computer vision, IoT, and AI monitoring system"
           loading="lazy"
         >
@@ -305,7 +305,7 @@ nav_order: 4
         aria-label="Read the Bioengineer.org article"
       >
         <img
-          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Computer vision monitoring of greenhouse specialty crops"
           loading="lazy"
         >
@@ -366,7 +366,7 @@ nav_order: 4
         aria-label="Read the Fertilizer Daily article"
       >
         <img
-          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="AI-based computer vision system tracking plant growth"
           loading="lazy"
         >
@@ -562,7 +562,7 @@ nav_order: 4
         aria-label="Read Spectrum smart vineyard irrigation"
       >
         <img
-          src="{{ '/assets/img/media/smart-vineyard-irrigation-2021.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/good-fruit-grower-2021.jpg' | relative_url }}"
           alt="Smart sensing and irrigation research in a vineyard"
           loading="lazy"
         >
