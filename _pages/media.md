@@ -13,7 +13,7 @@ nav_order: 4
        1. Tennessee Greentimes
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Meet Dr. Chenchen Kang
@@ -74,7 +74,7 @@ nav_order: 4
        2. Lancaster Farming
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Variable-rate spraying shows promise in orchards
@@ -135,7 +135,7 @@ nav_order: 4
        3. Vision Systems Design
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Machine vision system monitors greenhouse-grown specialty crop
@@ -196,7 +196,7 @@ nav_order: 4
        4. Quantum Zeitgeist
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         New computer vision system with IoT and AI enhances specialty crops monitoring in greenhouses
@@ -257,7 +257,7 @@ nav_order: 4
        5. Bioengineer.org
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Innovative computer vision system enhances monitoring of specialty crops
@@ -318,7 +318,7 @@ nav_order: 4
        6. Fertilizer Daily
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Penn State researchers programmed AI models and trained computer vision system to track plant growth
@@ -379,7 +379,7 @@ nav_order: 4
        7. Penn State News
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         New computer vision system can guide specialty crops monitoring
@@ -501,7 +501,7 @@ nav_order: 4
         aria-label="Read the Penn State research release"
       >
         <img
-          src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Penn State greenhouse specialty-crop monitoring system"
           loading="lazy"
         >
@@ -514,7 +514,7 @@ nav_order: 4
        8. Good Fruit Grower
        ========================================================= -->
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Spectrum smart vineyard irrigation
@@ -579,7 +579,7 @@ nav_order: 4
     Podcast
   </h2>
 
-  <div class="media-entry row align-items-center">
+  <div class="media-entry row align-items-start">
     <div class="media-entry__content col-md-8">
       <span class="media-entry__label">
         Podcast episode
