@@ -7,46 +7,44 @@
    Media page
    ========================================================================== */
 
+/* ==========================================================================
+   Media page
+   ========================================================================== */
+
 .media-page {
   margin-top: 1.25rem;
 }
 
 .media-section-title {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   font-size: 1.55rem;
   font-weight: 700;
 }
 
 .media-section-title--podcast {
-  margin-top: 2.5rem;
+  margin-top: 2.75rem;
 }
 
-/* Individual media card */
+/* Individual media entry */
 
 .media-entry {
-  display: flex;
-  align-items: stretch;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1.25rem;
-  overflow: hidden;
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.6rem;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  display: grid;
+  grid-template-columns: minmax(0, 65fr) minmax(240px, 35fr);
+  align-items: center;
+  gap: 2rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
-.media-entry:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.08);
+/* Optional divider above the first entry */
+
+.media-section-title + .media-entry {
+  border-top: 1px solid var(--global-divider-color);
 }
 
 /* Left-side text */
 
 .media-entry__content {
-  flex: 1 1 auto;
   min-width: 0;
 }
 
@@ -73,11 +71,6 @@
   line-height: 1.45;
 }
 
-/*
-  This is the visible summary of the article.
-  The summary can contain two or three short paragraphs.
-*/
-
 .media-entry__description {
   margin: 0 0 0.75rem;
   font-size: 0.96rem;
@@ -85,7 +78,7 @@
 }
 
 .media-entry__description p {
-  margin-bottom: 0.65rem;
+  margin: 0 0 0.65rem;
 }
 
 .media-entry__description p:last-child {
@@ -113,7 +106,7 @@
   text-decoration: underline;
 }
 
-/* Optional label used for podcast entries */
+/* Optional podcast label */
 
 .media-entry__label {
   display: inline-block;
@@ -128,15 +121,19 @@
   border-radius: 0.25rem;
 }
 
-/* Right-side image */
+/* Right-side image and optional caption */
+
+.media-entry__visual {
+  width: 100%;
+  margin: 0;
+}
 
 .media-entry__image {
-  flex: 0 0 285px;
-  width: 285px;
-  height: 175px;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
-  align-self: center;
-  border-radius: 0.45rem;
+  border-radius: 0.55rem;
   background-color: var(--global-divider-color);
 }
 
@@ -151,6 +148,14 @@
 
 .media-entry__image:hover img {
   transform: scale(1.025);
+}
+
+.media-entry__caption {
+  margin: 0.45rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: left;
 }
 
 /* Reprints and syndication dropdown */
@@ -180,27 +185,27 @@
   color: var(--global-text-color-light);
 }
 
-/* Tablet and mobile layout */
+/* Tablet and phone layout */
 
 @media (max-width: 768px) {
   .media-entry {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1.4rem 0;
   }
 
+  /*
+    The text appears first and the image appears below it
+    because media-entry__content comes before media-entry__visual
+    in the HTML.
+  */
+
   .media-entry__image {
-    flex: none;
-    width: 100%;
-    height: 200px;
+    aspect-ratio: 16 / 9;
   }
 }
 
 @media (max-width: 480px) {
-  .media-entry__image {
-    height: 175px;
-  }
-
   .media-entry__title {
     font-size: 1.08rem;
   }
