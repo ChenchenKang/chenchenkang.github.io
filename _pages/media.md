@@ -13,8 +13,8 @@ nav_order: 4
        1. Tennessee Greentimes
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Meet Dr. Chenchen Kang
       </h3>
@@ -52,7 +52,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
@@ -66,7 +66,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -74,8 +74,8 @@ nav_order: 4
        2. Lancaster Farming
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Variable-rate spraying shows promise in orchards
       </h3>
@@ -113,7 +113,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
@@ -127,7 +127,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -135,8 +135,8 @@ nav_order: 4
        3. Vision Systems Design
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Machine vision system monitors greenhouse-grown specialty crop
       </h3>
@@ -174,7 +174,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
@@ -188,7 +188,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -196,8 +196,8 @@ nav_order: 4
        4. Quantum Zeitgeist
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         New computer vision system with IoT and AI enhances specialty crops monitoring in greenhouses
       </h3>
@@ -235,7 +235,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
@@ -249,7 +249,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -257,8 +257,8 @@ nav_order: 4
        5. Bioengineer.org
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Innovative computer vision system enhances monitoring of specialty crops
       </h3>
@@ -296,7 +296,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
@@ -310,7 +310,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -318,8 +318,8 @@ nav_order: 4
        6. Fertilizer Daily
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Penn State researchers programmed AI models and trained computer vision system to track plant growth
       </h3>
@@ -357,7 +357,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
@@ -371,7 +371,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -379,8 +379,8 @@ nav_order: 4
        7. Penn State News
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         New computer vision system can guide specialty crops monitoring
       </h3>
@@ -492,7 +492,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
@@ -506,7 +506,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -514,8 +514,8 @@ nav_order: 4
        8. Good Fruit Grower
        ========================================================= -->
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <h3 class="media-entry__title">
         Spectrum smart vineyard irrigation
       </h3>
@@ -553,7 +553,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
@@ -567,7 +567,7 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 
 
@@ -579,8 +579,8 @@ nav_order: 4
     Podcast
   </h2>
 
-  <div class="media-entry">
-    <div class="media-entry__content">
+  <div class="media-entry row align-items-center">
+    <div class="media-entry__content col-md-8">
       <span class="media-entry__label">
         Podcast episode
       </span>
@@ -614,7 +614,7 @@ nav_order: 4
       </div>
     </div>
 
-    <figure class="media-entry__visual">
+    <div class="media-entry__visual col-md-4">
       <a
         class="media-entry__image"
         href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
@@ -628,6 +628,6 @@ nav_order: 4
           loading="lazy"
         >
       </a>
-    </figure>
+    </div>
   </div>
 </div>
