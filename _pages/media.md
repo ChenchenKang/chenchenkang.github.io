@@ -13,16 +13,10 @@ nav_order: 4
        1. Tennessee Greentimes
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Meet Dr. Chenchen Kang
-        </a>
+        Meet Dr. Chenchen Kang
       </h3>
 
       <p class="media-entry__meta">
@@ -32,12 +26,9 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This profile introduces Kang as an Assistant Professor at Tennessee
-          State University’s Otis L. Floyd Nursery Research Center. It
-          highlights his previous research in hyperspectral imaging, machine
-          learning, robotic spraying, IoT-based crop monitoring, and computer
-          vision, and outlines his plans to develop practical robotics, smart
-          sensing, and AI-based technologies for nursery production.
+          This profile introduces Kang’s background in agricultural robotics,
+          sensing, and AI and his plans to develop practical automation
+          technologies for Tennessee’s nursery industry.
         </p>
       </div>
 
@@ -48,7 +39,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -77,23 +68,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        2. Lancaster Farming
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Variable-rate spraying shows promise in orchards
-        </a>
+        Variable-rate spraying shows promise in orchards
       </h3>
 
       <p class="media-entry__meta">
@@ -103,11 +88,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article covers variable-rate spraying research designed to
-          reduce unnecessary chemical applications while maintaining effective
-          orchard crop protection. The work demonstrates how sensing,
-          automation, and targeted application technologies may improve
-          spraying efficiency and environmental sustainability.
+          This article examines how variable-rate spraying can reduce chemical
+          use while maintaining effective crop protection in orchards.
         </p>
       </div>
 
@@ -118,7 +100,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -147,23 +129,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        3. Vision Systems Design
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Machine vision system monitors greenhouse-grown specialty crop
-        </a>
+        Machine vision system monitors greenhouse-grown specialty crop
       </h3>
 
       <p class="media-entry__meta">
@@ -173,11 +149,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This technical feature describes a machine-vision system developed to
-          monitor greenhouse-grown specialty crops. It highlights the
-          integration of cameras, artificial intelligence, and Internet of
-          Things technologies for continuous plant-growth and environmental
-          monitoring.
+          This technical feature describes a camera-based system that uses AI
+          and IoT technologies to monitor greenhouse crop growth.
         </p>
       </div>
 
@@ -188,7 +161,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -208,7 +181,7 @@ nav_order: 4
         href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Read Machine vision system monitors greenhouse-grown specialty crop"
+        aria-label="Read the Vision Systems Design article"
       >
         <img
           src="{{ '/assets/img/media/greenhouse-computer-vision-2025.jpg' | relative_url }}"
@@ -217,23 +190,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        4. Quantum Zeitgeist
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          New computer vision system with IoT and AI enhances specialty crops monitoring in greenhouses
-        </a>
+        New computer vision system with IoT and AI enhances specialty crops monitoring in greenhouses
       </h3>
 
       <p class="media-entry__meta">
@@ -243,11 +210,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article highlights a computer-vision monitoring system that
-          combines artificial intelligence and IoT technologies for greenhouse
-          specialty-crop production. The system is intended to automate plant
-          monitoring and provide growers with continuous information about crop
-          growth and production conditions.
+          This article highlights an AI- and IoT-enabled system for automated
+          monitoring of specialty crops in greenhouse production.
         </p>
       </div>
 
@@ -258,7 +222,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -287,23 +251,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        5. Bioengineer.org
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Innovative computer vision system enhances monitoring of specialty crops
-        </a>
+        Innovative computer vision system enhances monitoring of specialty crops
       </h3>
 
       <p class="media-entry__meta">
@@ -313,10 +271,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article presents a computer-vision platform developed to
-          continuously measure crop growth and monitor greenhouse production
-          conditions. It describes how automated imaging and AI-based analysis
-          may support more precise and efficient specialty-crop management.
+          This article presents a computer-vision platform for continuously
+          measuring crop growth and greenhouse production conditions.
         </p>
       </div>
 
@@ -327,7 +283,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -356,23 +312,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        6. Fertilizer Daily
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Penn State researchers programmed AI models and trained computer vision system to track plant growth
-        </a>
+        Penn State researchers programmed AI models and trained computer vision system to track plant growth
       </h3>
 
       <p class="media-entry__meta">
@@ -382,11 +332,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article describes how Penn State researchers trained AI models
-          and developed a computer-vision system to track plant growth in
-          greenhouse production. The technology supports automated data
-          collection and may help growers make more informed crop-management
-          decisions.
+          This article describes how AI models and computer vision were used to
+          automate plant-growth tracking in greenhouse production.
         </p>
       </div>
 
@@ -397,7 +344,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -426,23 +373,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        7. Penn State News
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          New computer vision system can guide specialty crops monitoring
-        </a>
+        New computer vision system can guide specialty crops monitoring
       </h3>
 
       <p class="media-entry__meta">
@@ -452,11 +393,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This Penn State research release introduces a computer-vision and IoT
-          system developed to monitor plant growth and environmental conditions
-          in greenhouse specialty-crop production. The system demonstrates how
-          automated sensing and AI can support continuous crop monitoring and
-          more data-driven production management.
+          This Penn State release introduces a computer-vision and IoT system
+          for monitoring crop growth and greenhouse environmental conditions.
         </p>
       </div>
 
@@ -467,7 +405,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -480,8 +418,10 @@ nav_order: 4
         </a>
       </div>
 
-      <details class="media-reprints">
-        <summary>Reprints and syndication</summary>
+      <div class="media-reprints">
+        <p class="media-reprints__title">
+          Reprints and syndication
+        </p>
 
         <ul>
           <li>
@@ -550,7 +490,7 @@ nav_order: 4
             <span>— March 5, 2025</span>
           </li>
         </ul>
-      </details>
+      </div>
     </div>
 
     <figure class="media-entry__visual">
@@ -568,23 +508,17 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
        8. Good Fruit Grower
        ========================================================= -->
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
-        <a
-          href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Spectrum smart vineyard irrigation
-        </a>
+        Spectrum smart vineyard irrigation
       </h3>
 
       <p class="media-entry__meta">
@@ -594,11 +528,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This article explores sensing and data-driven technologies for
-          evaluating grapevine water status and improving irrigation
-          management. It highlights research using advanced imaging and field
-          measurements to support more precise vineyard water-management
-          decisions.
+          This article explores sensing and imaging technologies for assessing
+          grapevine water status and improving vineyard irrigation decisions.
         </p>
       </div>
 
@@ -609,7 +540,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read online →
+          Read full article →
         </a>
 
         <a
@@ -638,7 +569,7 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 
 
   <!-- =========================================================
@@ -649,18 +580,14 @@ nav_order: 4
     Podcast
   </h2>
 
-  <article class="media-entry">
+  <div class="media-entry">
     <div class="media-entry__content">
-      <span class="media-entry__label">Podcast episode</span>
+      <span class="media-entry__label">
+        Podcast episode
+      </span>
 
       <h3 class="media-entry__title">
-        <a
-          href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Challenges of developing field sensors
-        </a>
+        Challenges of developing field sensors
       </h3>
 
       <p class="media-entry__meta">
@@ -671,11 +598,8 @@ nav_order: 4
 
       <div class="media-entry__description">
         <p>
-          This episode discusses the practical and technical challenges of
-          developing sensors for vineyard research and field deployment. The
-          conversation addresses data collection, environmental variability,
-          sensor performance, and the process of translating research
-          technologies into useful tools for crop management.
+          This episode discusses the practical challenges of developing and
+          deploying sensing technologies for vineyard research and management.
         </p>
       </div>
 
@@ -686,7 +610,7 @@ nav_order: 4
           target="_blank"
           rel="noopener noreferrer"
         >
-          Listen online →
+          Listen to episode →
         </a>
       </div>
     </div>
@@ -706,5 +630,5 @@ nav_order: 4
         >
       </a>
     </figure>
-  </article>
+  </div>
 </div>
