@@ -6,6 +6,254 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+  /* ==========================================================
+     Media page layout
+     ========================================================== */
+
+  .media-page {
+    margin-top: 1.25rem;
+  }
+
+  .media-page .media-section-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+
+  .media-page .media-section-title--podcast {
+    margin-top: 2.75rem;
+  }
+
+  /* Media entry */
+
+  .media-page > .media-entry {
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding: 1.4rem 0 !important;
+    border: 0 !important;
+  }
+
+  /* Clearly visible divider after every entry except the last one */
+
+  .media-page > .media-entry:not(:last-child)::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.55);
+    content: "";
+  }
+
+  /* Desktop column proportions: 75% text and 25% image */
+
+  @media (min-width: 768px) {
+    .media-page .media-entry__content {
+      flex: 0 0 75% !important;
+      width: 75% !important;
+      max-width: 75% !important;
+      padding-right: 1.5rem !important;
+      padding-left: 0 !important;
+    }
+
+    .media-page .media-entry__visual {
+      display: flex !important;
+      flex: 0 0 25% !important;
+      align-items: flex-start !important;
+      justify-content: flex-end !important;
+      width: 25% !important;
+      max-width: 25% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  /* Title */
+
+  .media-page .media-entry__title {
+    margin: 0 0 0.45rem;
+    color: var(--global-text-color);
+    font-size: 1.15rem;
+    font-weight: 650;
+    line-height: 1.35;
+  }
+
+  /* Publication and date */
+
+  .media-page .media-entry__meta {
+    margin: 0 0 0.65rem;
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  /* Description */
+
+  .media-page .media-entry__description {
+    margin: 0 0 0.7rem;
+    font-size: 0.96rem;
+    line-height: 1.5;
+  }
+
+  .media-page .media-entry__description p {
+    margin: 0;
+  }
+
+  /* Links */
+
+  .media-page .media-entry__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 0.8rem;
+  }
+
+  .media-page .media-entry__link {
+    display: inline-block;
+    margin: 0;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .media-page .media-entry__link:hover {
+    text-decoration: underline;
+  }
+
+  /* Podcast label */
+
+  .media-page .media-entry__label {
+    display: inline-block;
+    margin-bottom: 0.45rem;
+    padding: 0.15rem 0.5rem;
+    color: var(--global-theme-color);
+    font-size: 0.75rem;
+    font-weight: 650;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: var(--global-code-bg-color);
+    border-radius: 0.25rem;
+  }
+
+  /* ==========================================================
+     Standardized small images: 220 × 135 px
+     ========================================================== */
+
+  .media-page .media-entry__image {
+    display: block !important;
+    flex: 0 0 220px !important;
+    width: 220px !important;
+    min-width: 220px !important;
+    max-width: 220px !important;
+    height: 135px !important;
+    overflow: hidden !important;
+    border-radius: 0.5rem;
+    background-color: var(--global-divider-color);
+  }
+
+  .media-page .media-entry__image img {
+    display: block !important;
+    width: 220px !important;
+    min-width: 220px !important;
+    max-width: 220px !important;
+    height: 135px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+
+  /* Reprints */
+
+  .media-page .media-reprints {
+    margin-top: 1rem;
+    font-size: 0.88rem;
+  }
+
+  .media-page .media-reprints__title {
+    margin: 0 0 0.4rem;
+    color: var(--global-text-color);
+    font-size: 0.9rem;
+    font-weight: 650;
+  }
+
+  .media-page .media-reprints ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .media-page .media-reprints li {
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+  }
+
+  .media-page .media-reprints li:last-child {
+    margin-bottom: 0;
+  }
+
+  .media-page .media-reprints li span {
+    color: var(--global-text-color-light);
+  }
+
+  /* ==========================================================
+     Mobile: text first and small image below
+     ========================================================== */
+
+  @media (max-width: 767.98px) {
+    .media-page > .media-entry {
+      padding: 1.3rem 0 !important;
+    }
+
+    .media-page .media-entry__content {
+      flex: 0 0 100% !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+
+    .media-page .media-entry__visual {
+      display: flex !important;
+      flex: 0 0 100% !important;
+      justify-content: flex-start !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-top: 1rem !important;
+      padding: 0 !important;
+    }
+
+    .media-page .media-entry__image {
+      width: 220px !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      height: 135px !important;
+    }
+
+    .media-page .media-entry__image img {
+      width: 220px !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      height: 135px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .media-page .media-entry__title {
+      font-size: 1.08rem;
+    }
+
+    .media-page .media-entry__links {
+      gap: 0.55rem 0.9rem;
+    }
+  }
+</style>
+
+
+
 <div class="media-page">
   <h2 class="media-section-title">Articles</h2>
 
