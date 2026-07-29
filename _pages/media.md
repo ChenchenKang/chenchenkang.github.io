@@ -431,7 +431,7 @@ nav_order: 4
         aria-label="Read the Vision Systems Design article"
       >
         <img
-          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Computer vision system monitoring greenhouse-grown crops"
           loading="lazy"
         >
@@ -492,7 +492,7 @@ nav_order: 4
         aria-label="Read the Quantum Zeitgeist article"
       >
         <img
-          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Greenhouse computer vision, IoT, and AI monitoring system"
           loading="lazy"
         >
@@ -553,7 +553,7 @@ nav_order: 4
         aria-label="Read the Bioengineer.org article"
       >
         <img
-          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="Computer vision monitoring of greenhouse specialty crops"
           loading="lazy"
         >
@@ -614,7 +614,7 @@ nav_order: 4
         aria-label="Read the Fertilizer Daily article"
       >
         <img
-          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
           alt="AI-based computer vision system tracking plant growth"
           loading="lazy"
         >
