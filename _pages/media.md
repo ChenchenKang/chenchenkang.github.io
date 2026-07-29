@@ -9,6 +9,10 @@ nav_order: 4
 <div class="media-page">
   <h2 class="media-section-title">Articles</h2>
 
+  <!-- =========================================================
+       1. Meet Dr. Chenchen Kang
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -26,20 +30,33 @@ nav_order: 4
         September 15, 2025
       </p>
 
-      <p class="media-entry__description">
-        A profile introducing Kang’s research in agricultural automation,
-        sensing, robotics, and precision agriculture at Tennessee State
-        University.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          A profile introducing Kang’s research in agricultural automation,
+          sensing, robotics, and precision agriculture at Tennessee State
+          University.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -47,7 +64,7 @@ nav_order: 4
       href="https://issuu.com/leadingedgepubs/docs/tennessee_greentimes_-_fall_2025/"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="View Meet Dr. Chenchen Kang"
+      aria-label="Read Meet Dr. Chenchen Kang"
     >
       <img
         src="{{ '/assets/img/media/tennessee-greentimes-2025.jpg' | relative_url }}"
@@ -57,6 +74,10 @@ nav_order: 4
     </a>
   </article>
 
+
+  <!-- =========================================================
+       2. Variable-rate spraying shows promise in orchards
+       ========================================================= -->
 
   <article class="media-entry">
     <div class="media-entry__content">
@@ -75,20 +96,33 @@ nav_order: 4
         June 26, 2025
       </p>
 
-      <p class="media-entry__description">
-        Coverage of variable-rate spraying research designed to improve
-        chemical-use efficiency while maintaining effective orchard
-        management.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          Coverage of variable-rate spraying research designed to improve
+          chemical-use efficiency while maintaining effective orchard
+          management.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://www.lancasterfarming.com/farming-news/produce/variable-rate-spraying-shows-promise-in-orchards/article_d4fac63d-cd6c-4e1e-b348-0fc8dcd5ee87.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -107,6 +141,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       3. Machine vision system monitors greenhouse-grown crop
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -124,20 +162,33 @@ nav_order: 4
         March 21, 2025
       </p>
 
-      <p class="media-entry__description">
-        A technical feature on the machine-vision, artificial-intelligence,
-        and Internet of Things technologies used to monitor greenhouse crop
-        growth.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          A technical feature on the machine-vision, artificial-intelligence,
+          and Internet of Things technologies used to monitor greenhouse crop
+          growth.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://www.vision-systems.com/boards-software/article/55276457/machine-vision-system-monitors-greenhouse-grown-specialty-crop"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -156,6 +207,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       4. Quantum Zeitgeist
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -173,20 +228,33 @@ nav_order: 4
         March 5, 2025
       </p>
 
-      <p class="media-entry__description">
-        A feature highlighting the integration of computer vision, artificial
-        intelligence, and IoT technologies for automated greenhouse crop
-        monitoring.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          A feature highlighting the integration of computer vision, artificial
+          intelligence, and IoT technologies for automated greenhouse crop
+          monitoring.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://quantumzeitgeist.com/new-computer-vision-system-with-iot-and-ai-enhances-specialty-crops-monitoring-in-greenhouses/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -205,6 +273,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       5. Bioengineer.org
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -222,19 +294,32 @@ nav_order: 4
         March 4, 2025
       </p>
 
-      <p class="media-entry__description">
-        An overview of the computer-vision platform developed to continuously
-        measure and monitor specialty crop growth in greenhouse environments.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          An overview of the computer-vision platform developed to continuously
+          measure and monitor specialty crop growth in greenhouse environments.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://bioengineer.org/innovative-computer-vision-system-enhances-monitoring-of-specialty-crops/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -253,6 +338,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       6. Fertilizer Daily
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -270,19 +359,32 @@ nav_order: 4
         March 3, 2025
       </p>
 
-      <p class="media-entry__description">
-        Coverage of the artificial-intelligence models and imaging system used
-        to track crop growth and support data-driven greenhouse management.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          Coverage of the artificial-intelligence models and imaging system used
+          to track crop growth and support data-driven greenhouse management.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://www.fertilizerdaily.com/20250303-penn-state-researchers-programmed-ai-models-and-trained-computer-vision-system-to-track-plant-growth/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -301,6 +403,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       7. Penn State original release
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -318,20 +424,33 @@ nav_order: 4
         February 27, 2025
       </p>
 
-      <p class="media-entry__description">
-        The original Penn State research release describing a computer-vision
-        and IoT system developed to monitor plant growth and environmental
-        conditions in greenhouse production.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          The original Penn State research release describing a computer-vision
+          and IoT system developed to monitor plant growth and environmental
+          conditions in greenhouse production.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read original release →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
 
       <details class="media-reprints">
         <summary>Reprints and syndication</summary>
@@ -422,6 +541,10 @@ nav_order: 4
   </article>
 
 
+  <!-- =========================================================
+       8. Spectrum smart vineyard irrigation
+       ========================================================= -->
+
   <article class="media-entry">
     <div class="media-entry__content">
       <h3 class="media-entry__title">
@@ -439,20 +562,33 @@ nav_order: 4
         August 19, 2021
       </p>
 
-      <p class="media-entry__description">
-        A feature on sensing technologies and data-driven approaches for
-        evaluating grapevine water status and improving vineyard irrigation
-        management.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          A feature on sensing technologies and data-driven approaches for
+          evaluating grapevine water status and improving vineyard irrigation
+          management.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Read article →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://www.goodfruit.com/spectrum-smart-vineyard-irrigation/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
@@ -470,6 +606,10 @@ nav_order: 4
     </a>
   </article>
 
+
+  <!-- =========================================================
+       Podcast
+       ========================================================= -->
 
   <h2 class="media-section-title media-section-title--podcast">
     Podcast
@@ -495,20 +635,33 @@ nav_order: 4
         November 2023
       </p>
 
-      <p class="media-entry__description">
-        A discussion of the practical and technical challenges involved in
-        developing field-deployable sensors for vineyard research and
-        management.
-      </p>
+      <div class="media-entry__description">
+        <p>
+          A discussion of the practical and technical challenges involved in
+          developing field-deployable sensors for vineyard research and
+          management.
+        </p>
+      </div>
 
-      <a
-        class="media-entry__link"
-        href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Listen to episode →
-      </a>
+      <div class="media-entry__links">
+        <a
+          class="media-entry__link"
+          href="https://extension.oregonstate.edu/podcast/hires-vineyard-nutrition-podcast/season-2-episode-4-challenges-developing-field-sensors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Listen online →
+        </a>
+
+        <a
+          class="media-entry__link"
+          href="{{ '/assets/pdf/media/PDF-FILENAME-HERE.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View PDF →
+        </a>
+      </div>
     </div>
 
     <a
