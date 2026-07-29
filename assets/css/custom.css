@@ -29,12 +29,12 @@
   margin-right: 0;
   margin-left: 0;
   padding: 1.6rem 0;
-  border-bottom: 1px solid var(--global-divider-color);
+  border: 0;
 }
 
-/* Divider above the first entry in each section */
+/* Subtle divider between consecutive entries */
 
-.media-page .media-section-title + .media-entry {
+.media-page .media-entry + .media-entry {
   border-top: 1px solid var(--global-divider-color);
 }
 
@@ -132,13 +132,13 @@
 }
 
 /* --------------------------------------------------------------------------
-   Landscape image
+   Standardized landscape image
    -------------------------------------------------------------------------- */
 
 .media-page .media-entry__image {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  height: 190px;
   overflow: hidden;
   border-radius: 0.55rem;
   background-color: var(--global-divider-color);
@@ -148,9 +148,10 @@
   display: block;
   width: 100% !important;
   max-width: none !important;
-  height: 100% !important;
+  height: 190px !important;
   margin: 0 !important;
   object-fit: cover;
+  object-position: center;
   transition: transform 0.25s ease;
 }
 
@@ -212,8 +213,9 @@
     padding-left: 0;
   }
 
-  .media-page .media-entry__image {
-    aspect-ratio: 16 / 9;
+  .media-page .media-entry__image,
+  .media-page .media-entry__image img {
+    height: 210px !important;
   }
 }
 
@@ -224,5 +226,10 @@
 
   .media-entry__links {
     gap: 0.55rem 0.9rem;
+  }
+
+  .media-page .media-entry__image,
+  .media-page .media-entry__image img {
+    height: 190px !important;
   }
 }
