@@ -63,18 +63,10 @@
 
 .media-entry__title {
   margin: 0 0 0.45rem;
+  color: var(--global-text-color);
   font-size: 1.15rem;
   font-weight: 650;
   line-height: 1.35;
-}
-
-.media-entry__title a {
-  color: var(--global-text-color);
-  text-decoration: none;
-}
-
-.media-entry__title a:hover {
-  color: var(--global-theme-color);
 }
 
 /* Publication and date */
@@ -163,27 +155,32 @@
   transform: scale(1.025);
 }
 
-/* Reprints and syndication dropdown */
+/* Reprints and syndication */
 
 .media-reprints {
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   font-size: 0.9rem;
 }
 
-.media-reprints summary {
-  color: var(--global-theme-color);
-  font-weight: 600;
-  cursor: pointer;
+.media-reprints__title {
+  margin: 0 0 0.45rem;
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  font-weight: 650;
 }
 
 .media-reprints ul {
-  margin: 0.65rem 0 0;
+  margin: 0;
   padding-left: 1.2rem;
 }
 
 .media-reprints li {
   margin-bottom: 0.3rem;
   line-height: 1.45;
+}
+
+.media-reprints li:last-child {
+  margin-bottom: 0;
 }
 
 .media-reprints li span {
