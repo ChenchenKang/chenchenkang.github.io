@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-05'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
-    citations: 12
+    citations: 13
     title: A recursive segmentation model for bok choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture
     year: '2025'
   coQd5vUAAAAJ:2osOgNQ5qMEC:
     citations: 1
-    title: Design and Experiment of Roller Crushing Device of King Grass Harvester
+    title: Design and experiment of roller crushing device of King grass harvester
     year: '2021'
   coQd5vUAAAAJ:3fE2CSJIrl8C:
-    citations: 2
+    citations: 3
     title: Integrating computer vision and precision sprayers for targeted green fruit chemical thinning
     year: '2025'
   coQd5vUAAAAJ:5nxA0vEk-isC:
@@ -18,7 +18,7 @@ papers:
     title: Diagnosis of Grapevine Nutrient Content Using Proximal Hyperspectral Imaging
     year: '2022'
   coQd5vUAAAAJ:9yKSN-GCB0IC:
-    citations: 45
+    citations: 43
     title: Ground-based thermal imaging for assessing crop water status in grapevines over a growing season
     year: '2022'
   coQd5vUAAAAJ:IjCSPb-OGe4C:
@@ -86,10 +86,10 @@ papers:
     title: Optimization and experiments of cut-condition device working parameter on mower conditioner
     year: '2017'
   coQd5vUAAAAJ:ufrVoPGSRksC:
-    citations: 11
+    citations: 12
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 39
+    citations: 38
     title: Decision-support system for precision regulated deficit irrigation management for wine grapes
     year: '2023'
