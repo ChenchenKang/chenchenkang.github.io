@@ -25,12 +25,3 @@ nav_order: 4
 - **HORT 433 Vegetable Crops**  
   Penn State University, Fall 2023
 
-**Mentor**:
-
-- **AFS 102 Professional Development in Agriculture**  
-  Washington State University, Spring 2022
-
-**Teaching Assistant**:
-
-- **BSYSE 551 Electrohydraulic Systems Control**  
-  Washington State University, Fall 2020
