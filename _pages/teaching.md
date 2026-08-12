@@ -5,7 +5,32 @@ title: Teaching
 nav: true
 nav_order: 4
 ---
-<div class="post" style="text-align: center; padding: 4rem 1rem;">
-  <h2>Coming Soon</h2>
-  <p>The blog section is under development. Please check back later.</p>
-</div>
+
+**Instructor**:
+
+- **AGSC 4810/5810 Computing in Agriculture**  
+  Tennessee State University, Fall 2026
+
+**Guest Lecturer**:
+
+- **AGSC 5830 Precision Agriculture**  
+  Tennessee State University, Fall 2025
+
+- **HORT 432 Deciduous Tree Fruits**  
+  Penn State University, Fall 2024
+
+- **ABE 590 Colloquium**  
+  Penn State University, Fall 2024
+
+- **HORT 433 Vegetable Crops**  
+  Penn State University, Fall 2023
+
+**Mentor**:
+
+- **AFS 102 Professional Development in Agriculture**  
+  Washington State University, Spring 2022
+
+**Teaching Assistant**:
+
+- **BSYSE 551 Electrohydraulic Systems Control**  
+  Washington State University, Fall 2020
