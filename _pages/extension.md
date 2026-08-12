@@ -377,6 +377,37 @@ nav_order: 5
 
   <figure class="extension-item">
     <img
+      src="{{ '/assets/img/extension/mafvc_weather_2025.png' | relative_url }}"
+      alt="Presentation on a low-cost microclimate monitoring system for orchard disease management"
+      loading="lazy"
+    >
+    <figcaption>
+      <div class="extension-preview">
+        <time class="extension-date" datetime="2025-01-30">January 30, 2025</time>:
+        Kang presented a low-cost microclimate monitoring system for orchard
+        disease management at the Mid-Atlantic Fruit and Vegetable Convention,
+      </div>
+      <details class="extension-details">
+        <summary>Continue reading</summary>
+        <div class="extension-continuation">
+          and explained how localized environmental data can support orchard
+          monitoring and more informed disease-management decisions.
+          
+          <a
+            href="{{ '/assets/pdf/extension/mafvc_weather_2025.pdf' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View presentation slides (PDF)
+          </a>
+          
+        </div>
+      </details>
+    </figcaption>
+  </figure>
+
+  <figure class="extension-item">
+    <img
       src="{{ '/assets/img/extension/mafvc_iot_2025.png' | relative_url }}"
       alt="Invited presentation on IoT and computer vision for greenhouse crop monitoring"
       loading="lazy"
@@ -408,36 +439,6 @@ nav_order: 5
     </figcaption>
   </figure>
 
-  <figure class="extension-item">
-    <img
-      src="{{ '/assets/img/extension/mafvc_weather_2025.png' | relative_url }}"
-      alt="Presentation on a low-cost microclimate monitoring system for orchard disease management"
-      loading="lazy"
-    >
-    <figcaption>
-      <div class="extension-preview">
-        <time class="extension-date" datetime="2025-01-30">January 30, 2025</time>:
-        Kang presented a low-cost microclimate monitoring system for orchard
-        disease management at the Mid-Atlantic Fruit and Vegetable Convention,
-      </div>
-      <details class="extension-details">
-        <summary>Continue reading</summary>
-        <div class="extension-continuation">
-          and explained how localized environmental data can support orchard
-          monitoring and more informed disease-management decisions.
-          
-          <a
-            href="{{ '/assets/pdf/extension/mafvc_weather_2025.pdf' | relative_url }}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View presentation slides (PDF)
-          </a>
-          
-        </div>
-      </details>
-    </figcaption>
-  </figure>
 
   <figure class="extension-item">
     <img
