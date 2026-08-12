@@ -339,6 +339,13 @@ nav_order: 5
         <div class="extension-continuation">
           showing how fruit detection and targeted application can improve
           thinning precision while reducing unnecessary chemical use.
+          <a
+            href="{{ '/assets/pdf/extension/2025 Field Day Poster.pdf' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+           >
+            View poster (PDF)
+          </a>
         </div>
       </details>
     </figcaption>
