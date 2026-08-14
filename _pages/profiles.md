@@ -26,7 +26,7 @@ profiles:
 
   - align: left
     image: susma-regmi.jpeg
-    content: about_ms_student.md
+    content: about_susma_regmi.md
     image_circular: false # crops the image to make it circular
     more_info: >
 
