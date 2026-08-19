@@ -19,7 +19,7 @@ profiles:
 
 
   - align: left
-    image: default.png
+    image: Bishal.png
     content: about_bishal.md
     image_circular: false # crops the image to make it circular
     more_info: >
