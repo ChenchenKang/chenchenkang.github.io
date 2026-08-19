@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-19'
 papers:
   coQd5vUAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -74,7 +74,7 @@ papers:
     title: 'Integrated Approach to Green Fruit Thinning: Combining Computer Vision and Precision Sprayers for Effective Chemical Thinning'
     year: '2025'
   coQd5vUAAAAJ:qjMakFHDy7sC:
-    citations: 12
+    citations: 13
     title: Assessment of water stress in vineyards using on-the-go hyperspectral imaging and machine learning algorithms
     year: '2022'
   coQd5vUAAAAJ:u-x6o8ySG0sC:
@@ -90,6 +90,6 @@ papers:
     title: Assessment of spray patterns and efficiency of an unmanned sprayer used in planar growing systems
     year: '2024'
   coQd5vUAAAAJ:zYLM7Y9cAGgC:
-    citations: 38
+    citations: 39
     title: Decision-support system for precision regulated deficit irrigation management for wine grapes
     year: '2023'
