@@ -748,11 +748,7 @@ nav_order: 4
       rel="noopener noreferrer"
       aria-label="Read the Penn State research release"
     >
-      <img
-        src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
-        alt="Penn State greenhouse specialty-crop monitoring system"
-        loading="lazy"
-      >
+
     </a>
   </div>
 </div>
