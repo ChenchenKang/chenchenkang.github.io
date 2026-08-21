@@ -663,6 +663,13 @@ nav_order: 4
         >
           View PDF →
         </a>
+        
+       <img
+          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+          alt="AI-based computer vision system tracking plant growth"
+          loading="lazy"
+        >
+        
       </div>
 
       <div class="media-reprints">
