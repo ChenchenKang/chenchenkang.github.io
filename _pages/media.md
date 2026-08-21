@@ -624,145 +624,138 @@ nav_order: 4
 
 
   <!-- =========================================================
-       7. Penn State News
-       ========================================================= -->
+     7. Penn State News
+     ========================================================= -->
 
-  <div class="media-entry row align-items-start">
-    <div class="media-entry__content col-md-8">
-      <h3 class="media-entry__title">
-        New computer vision system can guide specialty crops monitoring
-      </h3>
+<div class="media-entry row align-items-start">
+  <div class="media-entry__content col-md-8">
+    <h3 class="media-entry__title">
+      New computer vision system can guide specialty crops monitoring
+    </h3>
 
-      <p class="media-entry__meta">
-        Jeff Mulhollem, <em>The Pennsylvania State University</em><br>
-        February 27, 2025
+    <p class="media-entry__meta">
+      Jeff Mulhollem, <em>The Pennsylvania State University</em><br>
+      February 27, 2025
+    </p>
+
+    <div class="media-entry__description">
+      <p>
+        This release introduces a computer-vision and IoT system for
+        continuous greenhouse crop monitoring.
       </p>
-
-      <div class="media-entry__description">
-        <p>
-          This release introduces a computer-vision and IoT system for
-          continuous greenhouse crop monitoring.
-        </p>
-      </div>
-
-      <div class="media-entry__links">
-        <a
-          class="media-entry__link"
-          href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Read full article →
-        </a>
-
-        <a
-          class="media-entry__link"
-          href="{{ '/assets/pdf/media/penn-state-news-2025.pdf' | relative_url }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View PDF →
-        </a>
-        
-       <img
-          src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
-          alt="AI-based computer vision system tracking plant growth"
-          loading="lazy"
-        >
-        
-      </div>
-
-      <div class="media-reprints">
-        <p class="media-reprints__title">
-          Reprints and syndication
-        </p>
-
-        <ul>
-          <li>
-            <a
-              href="https://phys.org/news/2025-02-vision-tracks-growth-specialty-crop.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Phys.org
-            </a>
-            <span>— February 27, 2025</span>
-          </li>
-
-          <li>
-            <a
-              href="https://www.eurekalert.org/multimedia/1063074"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              EurekAlert!
-            </a>
-            <span>— February 27, 2025</span>
-          </li>
-
-          <li>
-            <a
-              href="https://www.hortidaily.com/article/9709666/new-computer-vision-system-guiding-crop-monitoring/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              HortiDaily
-            </a>
-            <span>— February 28, 2025</span>
-          </li>
-
-          <li>
-            <a
-              href="https://tiisys.com/blog/2025/02/28/post-161981/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Tech-I Technology Information Research Institute
-            </a>
-            <span>— February 28, 2025</span>
-          </li>
-
-          <li>
-            <a
-              href="https://www.sciencedaily.com/releases/2025/03/250304164416.htm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ScienceDaily
-            </a>
-            <span>— March 4, 2025</span>
-          </li>
-
-          <li>
-            <a
-              href="https://www.enn.com/articles/76114-new-computer-vision-system-can-guide-specialty-crops-monitoring"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Environment News Network
-            </a>
-            <span>— March 5, 2025</span>
-          </li>
-        </ul>
-      </div>
     </div>
 
-    <div class="media-entry__visual col-md-4">
+    <div class="media-entry__links">
       <a
-        class="media-entry__image"
+        class="media-entry__link"
         href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Read the Penn State research release"
       >
-        <img
-          src="{{ '/assets/img/media/machiane-vision-greenhouse-crop-2025.jpg' | relative_url }}"
-          alt="Penn State greenhouse specialty-crop monitoring system"
-          loading="lazy"
-        >
+        Read full article →
+      </a>
+
+      <a
+        class="media-entry__link"
+        href="{{ '/assets/pdf/media/penn-state-news-2025.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View PDF →
       </a>
     </div>
+
+    <div class="media-reprints">
+      <p class="media-reprints__title">
+        Reprints and syndication
+      </p>
+
+      <ul>
+        <li>
+          <a
+            href="https://phys.org/news/2025-02-vision-tracks-growth-specialty-crop.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Phys.org
+          </a>
+          <span>— February 27, 2025</span>
+        </li>
+
+        <li>
+          <a
+            href="https://www.eurekalert.org/multimedia/1063074"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            EurekAlert!
+          </a>
+          <span>— February 27, 2025</span>
+        </li>
+
+        <li>
+          <a
+            href="https://www.hortidaily.com/article/9709666/new-computer-vision-system-guiding-crop-monitoring/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HortiDaily
+          </a>
+          <span>— February 28, 2025</span>
+        </li>
+
+        <li>
+          <a
+            href="https://tiisys.com/blog/2025/02/28/post-161981/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tech-I Technology Information Research Institute
+          </a>
+          <span>— February 28, 2025</span>
+        </li>
+
+        <li>
+          <a
+            href="https://www.sciencedaily.com/releases/2025/03/250304164416.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ScienceDaily
+          </a>
+          <span>— March 4, 2025</span>
+        </li>
+
+        <li>
+          <a
+            href="https://www.enn.com/articles/76114-new-computer-vision-system-can-guide-specialty-crops-monitoring"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Environment News Network
+          </a>
+          <span>— March 5, 2025</span>
+        </li>
+      </ul>
+    </div>
   </div>
+
+  <div class="media-entry__visual col-md-4">
+    <a
+      class="media-entry__image"
+      href="https://www.psu.edu/news/research/story/new-computer-vision-system-can-guide-specialty-crops-monitoring"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Read the Penn State research release"
+    >
+      <img
+        src="{{ '/assets/img/media/machine-vision-greenhouse-crop-2025.jpg' | relative_url }}"
+        alt="Penn State greenhouse specialty-crop monitoring system"
+        loading="lazy"
+      >
+    </a>
+  </div>
+</div>
 
 
   <!-- =========================================================
