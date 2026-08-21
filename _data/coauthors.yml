@@ -11,7 +11,7 @@
     url: https://scholar.google.com/citations?user=zOdQaXMAAAAJ&hl=en
 
 "keller":
-  - firstname: ["Markus"]
+  - firstname: ["Markus", "Keller"]
     url: https://wine.wsu.edu/faculty/markus-keller/
 
 
@@ -38,3 +38,13 @@
 "paudel":
   - firstname: ["Achyut","Paudel"]
     url: https://achyutpaudel49.wixsite.com/achyutpaudel
+    
+"davadant":
+  - firstname: ["Pierre","Davadant"]
+    url: https://utia.tennessee.edu/person/?id=209595
+
+"diverres":
+  - firstname: ["geraldine","diverres"]
+    url: https://eps.nmsu.edu/faculty/geraldine-diverres-naranjo.html
+    
+
