@@ -749,6 +749,12 @@ nav_order: 4
       aria-label="Read the Penn State research release"
     >
 
+      <img
+        src="{{ '/assets/img/media/iotgreenhouse.jpg' | relative_url }}"
+        alt="Penn State greenhouse specialty-crop monitoring system"
+        loading="lazy"
+      >
+
     </a>
   </div>
 </div>
