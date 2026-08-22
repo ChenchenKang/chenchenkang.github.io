@@ -1,5 +1,5 @@
 
-**Susma Regmi** MS student (08/2026 - )
+**Susma Regmi** MS student (08/2026 - ) ·
 <a href="https://www.linkedin.com/in/susmaregmi5859/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
   <i class="fa-brands fa-linkedin"></i>
 </a>
