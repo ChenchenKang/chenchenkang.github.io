@@ -3,7 +3,7 @@ date: 2026-04-02
 title: "Kang Attends the 2026 AI in Agriculture Conference"
 inline: true
 image: /assets/img/news/ai-in-ag-2026.jpg
-image_size: small
+image_size: large
 image_alt: "Kang attending the 2026 AI in Agriculture Conference in Raleigh, North Carolina"
 summary: >
   Kang attended the 2026 AI in Agriculture Conference, held at NC State
