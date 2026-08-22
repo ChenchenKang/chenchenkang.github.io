@@ -794,7 +794,7 @@ nav_order: 4
 
         <a
           class="media-entry__link"
-          href="{{ '/assets/pdf/media/good-fruit-grower-2021.pdf' | relative_url }}"
+          href="{{ '/assets/pdf/media/good_fruit_grower.pdf' | relative_url }}"
           target="_blank"
           rel="noopener noreferrer"
         >
