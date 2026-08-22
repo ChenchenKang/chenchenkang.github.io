@@ -3,7 +3,7 @@ date: 2026-07-02
 title: "Senator Bo Watson Visits the TSU Nursery Research Center and Kang Lab"
 inline: true
 image: /assets/img/news/senator-watson-nrc-visit.jpg
-image_size: large
+image_size: small
 image_alt: "Senator Bo Watson and Tennessee State University leaders visiting the Otis L. Floyd Nursery Research Center"
 image_caption: 'Photo credit: <a href="https://www.facebook.com/share/p/1DZ6uEWbP9/" target="_blank" rel="noopener noreferrer">TSU College of Agriculture</a>.'
 summary: >
