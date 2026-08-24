@@ -4,7 +4,7 @@ title: "Sewanee Students Visit the Kang Lab"
 inline: true
 image: /assets/img/news/sewanee-student-visit-2026.jpg
 image_size: large
-image_alt: "Sewanee students visiting the Kang Lab at the Otis L. Floyd Nursery Research Center"
+image_alt: "Sewanee students visiting the Kang Lab at Nursery Research Center"
 summary: >
   About 30 first-year students from Sewanee: The University of the South
   visited the Otis L. Floyd Nursery Research Center. The visit was designed
