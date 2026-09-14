@@ -4,7 +4,7 @@
   <i class="fa-brands fa-linkedin"></i>
 </a>
 
-I am a master’s student in Agricultural Science with a concentration in Precision Agriculture at Tennessee State University. My research focuses on robotic pesticide application for container nursery production. I earned my B.S. in Agricultural Engineering from Tribhuvan University in Nepal.
+I am a master’s student in Environmental Science at Tennessee State University. My research focuses on robotic pesticide application for container nursery production. I earned my B.S. in Agricultural Engineering from Tribhuvan University in Nepal.
 
 
 
