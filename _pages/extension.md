@@ -101,6 +101,34 @@ nav_order: 5
 
 <div class="extension-gallery">
 
+
+  <figure class="extension-item">
+  <img
+    src="{{ '/assets/img/extension/small-farm-expo-2026.jpg' | relative_url }}"
+    alt="Susma Regmi and Bishal Sangroula representing the Kang Lab at the 2026 Tennessee Small Farm Expo"
+    loading="lazy"
+  >
+  <figcaption>
+    <div class="extension-preview">
+      <time class="extension-date" datetime="2026-09-03">September 3, 2026</time>:
+      Susma Regmi and Bishal Sangroula attended the 2026 Tennessee Small Farm
+      Expo and represented the Kang Lab at the Nursery Research Center booth,
+    </div>
+    <details class="extension-details">
+      <summary>Continue reading</summary>
+      <div class="extension-continuation">
+        where they introduced their research projects to farmers, Extension
+        professionals, agricultural partners, and other attendees, and shared
+        how sensing, drones, robotics, and precision agriculture technologies
+        are being explored for nursery and specialty crop production.
+        <a href="https://www.tnstate.edu/smallfarm/">
+          Learn more about the Tennessee Small Farm Expo.
+        </a>
+      </div>
+    </details>
+  </figcaption>
+</figure>
+
   <figure class="extension-item">
     <img
       src="{{ '/assets/img/extension/nrc_field_day.png' | relative_url }}"
