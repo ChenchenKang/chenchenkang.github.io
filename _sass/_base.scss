@@ -51,6 +51,7 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
@@ -228,7 +229,8 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
-   /* About page only: make the main profile photo bigger */
+
+  /* About page only: make the main profile photo bigger */
   .about-page .profile {
     width: 30% !important; /* adjust: 35%–45% */
   }
@@ -338,7 +340,7 @@ ul.task-list input[type="checkbox"] {
 
       svg {
         width: 1.7rem;
-        height: 1.7rem;
+        height: 4rem;
         margin-bottom: 0.5rem;
 
         image {
@@ -490,6 +492,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Footer
+
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
@@ -826,6 +829,7 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -833,6 +837,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -886,9 +891,11 @@ footer.sticky-bottom {
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
@@ -896,6 +903,7 @@ footer.sticky-bottom {
 }
 
 // Rouge Color Customization
+
 figure.highlight {
   margin: 0 0 1rem;
 
@@ -945,6 +953,7 @@ code {
 }
 
 // Transitioning Themes
+
 html.transition,
 html.transition *,
 html.transition *:before,
@@ -954,6 +963,7 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
+
 .post {
   .post-meta {
     color: var(--global-text-color-light);
@@ -997,10 +1007,10 @@ progress {
   /* Get rid of the default border in Firefox/Opera. */
   border: none;
 
-  /* Progress bar container for Firefox/IE10  */
+  /* Progress bar container for Firefox/IE10 */
   background-color: transparent;
 
-  /* Progress bar value for IE10  */
+  /* Progress bar value for IE10 */
   color: var(--global-theme-color);
 }
 
@@ -1034,6 +1044,7 @@ progress::-moz-progress-bar {
 }
 
 /* Copy button */
+
 .code-display-wrapper {
   position: relative;
 
@@ -1084,6 +1095,7 @@ progress::-moz-progress-bar {
 }
 
 /* Table of Contents */
+
 nav[data-toggle="toc"] {
   top: 5rem;
 
@@ -1114,6 +1126,7 @@ nav[data-toggle="toc"] {
 }
 
 /* small screens */
+
 @media (max-width: 576px) {
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
@@ -1145,6 +1158,7 @@ nav[data-toggle="toc"] {
 }
 
 /* Extra small screens */
+
 @media (max-width: 400px) {
   pre {
     font-size: 0.8rem;
@@ -1165,6 +1179,7 @@ nav[data-toggle="toc"] {
 }
 
 /* Medium screens - optimize for tablets */
+
 @media (min-width: 577px) and (max-width: 768px) {
   pre {
     font-size: 0.9rem;
@@ -1250,6 +1265,7 @@ swiper-container {
 
 // Ninja Keys
 // for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
+
 ninja-keys {
   --ninja-accent-color: var(--global-theme-color);
   --ninja-icon-size: 0px;
@@ -1266,6 +1282,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // newsletter
+
 .newsletter-form-container {
   margin-bottom: 20px;
 }
@@ -1372,6 +1389,7 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-error {
     font-size: 16px !important;
   }
+
   .newsletter-form-container {
     margin-right: 20px;
     margin-left: 20px;
@@ -1379,6 +1397,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // popover is used for annotation in bib.liquid
+
 .popover {
   background-color: var(--global-bg-color);
   border-color: var(--global-divider-color);
@@ -1418,6 +1437,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // highlight-search-term
+
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
@@ -1502,6 +1522,7 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 // News page
+
 .news-list {
   width: 100%;
 }
@@ -1582,6 +1603,7 @@ mjx-container[jax="CHTML"][display="true"] {
   margin: 0;
   justify-self: end;
 }
+
 .news-entry-image--small {
   max-width: 280px;
 }
@@ -1622,7 +1644,7 @@ mjx-container[jax="CHTML"][display="true"] {
     gap: 1.25rem;
     padding: 1.75rem 0;
   }
-  
+
   .news-entry-image,
   .news-entry-image--small,
   .news-entry-image--medium,
@@ -1640,7 +1662,9 @@ mjx-container[jax="CHTML"][display="true"] {
     aspect-ratio: 16 / 9;
   }
 }
+
 // News grouped by year
+
 .news-years {
   width: 100%;
 }
@@ -1746,12 +1770,16 @@ mjx-container[jax="CHTML"][display="true"] {
   }
 }
 
+// Team profile layout
+// Prevent profile biography text from wrapping underneath a left/right floated image.
 
-  .team-member-text {
-    overflow: hidden;
-  }
-  
-  .student-award {
-    color: var(--global-theme-color);
-    margin-top: 0.5rem;
-  }
+.profile + .clearfix {
+  display: flow-root;
+}
+
+// Student awards
+
+.student-award {
+  color: var(--global-theme-color);
+  margin-top: 0.5rem;
+}
