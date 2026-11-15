@@ -1777,13 +1777,20 @@ mjx-container[jax="CHTML"][display="true"] {
   display: flow-root;
 }
 
-// Student awards
 
+// Remove vertical gaps between profile paragraphs
+.profile + .clearfix p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Student awards
 .student-award,
 .student-award strong {
   color: var(--global-theme-color);
 }
 
 .student-award {
-  margin-top: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
