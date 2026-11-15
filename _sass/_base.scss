@@ -1779,7 +1779,11 @@ mjx-container[jax="CHTML"][display="true"] {
 
 // Student awards
 
-.student-award {
+.student-award,
+.student-award strong {
   color: var(--global-theme-color);
+}
+
+.student-award {
   margin-top: 0.5rem;
 }
