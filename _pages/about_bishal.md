@@ -5,6 +5,9 @@
 
 I am a master’s student in Environmental Science at Tennessee State University. My research focuses on robotic pesticide application for container nursery production. I earned my B.S. in Agricultural Engineering from Tribhuvan University in Nepal.
 
-<strong style="color: var(--global-theme-color);">
-  3rd Place, Agriculture-Plant Science Section Student Poster Competition, 136th Annual Meeting of the Tennessee Academy of Science
-</strong>
+<p class="student-award">
+  <strong>
+    3rd Place, Agriculture-Plant Science Section Student Poster Competition,
+    136th Annual Meeting of the Tennessee Academy of Science
+  </strong>
+</p>
