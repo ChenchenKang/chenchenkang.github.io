@@ -4,7 +4,7 @@ title: "Kang Lab Students Represent the NRC at the 2026 Tennessee Small Farm Exp
 inline: true
 link: https://www.tnstate.edu/smallfarm/
 image: /assets/img/news/small-farm-expo-2026.jpg
-image_size: large
+image_size: medium
 image_alt: "Susma Regmi and Bishal Sangroula representing the Kang Lab at the 2026 Tennessee Small Farm Expo"
 summary: >
   Kang Lab graduate students Susma Regmi and Bishal Sangroula attended the
