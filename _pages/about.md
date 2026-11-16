@@ -25,6 +25,7 @@ latest_posts:
 ---
 My name is Chenchen Kang (康琛琛). I am an Assistant Professor in the Department of Agricultural Science and Engineering at Tennessee State University, based at the Otis L. Floyd Nursery Research Center in McMinnville, Tennessee. My research focuses on advancing agricultural automation and digital technologies to support specialty crop production. Prior to joining TSU, I was a postdoctoral scholar in Agricultural and Biological Engineering at Penn State University, working with [Long He](https://abe.psu.edu/directory/luh378). I earned my Ph.D. from Washington State University in 2023 under the supervision of [Qin Zhang](https://bsyse.wsu.edu/people/faculty/zhang/) and [Manoj Karkee (now at Cornell)](https://cals.cornell.edu/people/manoj-karkee), and my M.S. and B.S. in Agricultural Engineering from China Agricultural University.
 
+
 **Research Interests**
 
 * **Precision and autonomous agricultural machinery** – design and evaluation of intelligent systems to improve efficiency and sustainability.
