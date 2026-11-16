@@ -3,7 +3,7 @@ date: 2026-08-24
 title: "Sewanee Students Visit the Kang Lab"
 inline: true
 image: /assets/img/news/sewanee-student-visit-2026.jpg
-image_size: large
+image_size: medium
 image_alt: "Sewanee students visiting the Kang Lab at Nursery Research Center"
 summary: >
   About 30 first-year students from Sewanee: The University of the South
