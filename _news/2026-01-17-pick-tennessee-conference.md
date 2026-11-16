@@ -4,7 +4,7 @@ title: "Kang Attends the 2026 Pick Tennessee Conference"
 inline: true
 link: https://www.picktnconference.com/
 image: /assets/img/news/pick-tn-conference-2026.jpg
-image_size: large
+image_size: medium
 image_alt: "Kang attending the 2026 Pick Tennessee Conference in Lebanon, Tennessee"
 summary: >
   Kang attended the 2026 Pick Tennessee Conference in Lebanon, Tennessee,
