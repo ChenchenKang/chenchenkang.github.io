@@ -30,5 +30,9 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
 
+  - align: left
+    content: about_Victor.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
 ---
 
