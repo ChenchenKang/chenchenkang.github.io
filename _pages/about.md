@@ -27,7 +27,7 @@ My name is Chenchen Kang (康琛琛). I am an Assistant Professor in the Departm
 
 <br>
 
-**Research Interests**
+<p style="margin-top: 2rem !important;"><strong>Research Interests</strong></p>
 
 * **Precision and autonomous agricultural machinery** – design and evaluation of intelligent systems to improve efficiency and sustainability.
 * **AI, computer vision, and field robotics in agriculture** – developing smart sensing and robotic solutions for crop monitoring and management.
